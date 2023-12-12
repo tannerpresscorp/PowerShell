@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "tannerpresscorp/PowerShell",
+  "pipelineDirectory": "PowerShell",
+  "workspaceDirectory": "PowerShell\\PowerShell",
+  "repositories": {
+    "tannerpresscorp/PowerShell": {
+      "repositoryPath": "PowerShell\\PowerShell",
+      "lastRunOn": "12/12/2023 00:54:13 -06:00"
+    }
+  },
+  "lastRunOn": "12/12/2023 00:54:13 -06:00"
+}

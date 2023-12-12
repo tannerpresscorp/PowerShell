@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "8QSMSZ2",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/",
+  "gitHubUrl": "https://github.com/tannerpresscorp/PowerShell",
+  "workFolder": "_self-hosted"
+}
