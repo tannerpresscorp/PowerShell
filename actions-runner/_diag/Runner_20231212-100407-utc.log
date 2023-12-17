@@ -1,0 +1,574 @@
+[2023-12-12 10:04:07Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-12-12 10:04:08Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 10:04:08Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 10:04:08Z INFO HostContext] Well known config file 'Credentials': 'C:\PowerShell\actions-runner\.credentials'
+[2023-12-12 10:04:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 10:04:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 10:04:15Z INFO HostContext] Well known config file 'Runner': 'C:\PowerShell\actions-runner\.runner'
+[2023-12-12 10:04:15Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2023-12-12 10:04:15Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2023-12-12 10:04:16Z INFO Listener] Version: 2.311.0
+[2023-12-12 10:04:16Z INFO Listener] Commit: f5cff308c83746dddd726a9a28a1583872305aaa
+[2023-12-12 10:04:16Z INFO Listener] Culture: en-US
+[2023-12-12 10:04:16Z INFO Listener] UI Culture: en-US
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 10:04:16Z INFO Listener] Validating directory permissions for: 'C:\PowerShell\actions-runner'
+[2023-12-12 10:04:16Z INFO CommandLineParser] Parse
+[2023-12-12 10:04:16Z INFO CommandLineParser] Parsing 3 args
+[2023-12-12 10:04:16Z INFO CommandLineParser] parsing argument
+[2023-12-12 10:04:16Z INFO CommandLineParser] HasArgs: False
+[2023-12-12 10:04:16Z INFO CommandLineParser] Adding Command: run
+[2023-12-12 10:04:16Z INFO CommandLineParser] parsing argument
+[2023-12-12 10:04:16Z INFO CommandLineParser] HasArgs: True
+[2023-12-12 10:04:16Z INFO CommandLineParser] arg: startuptype
+[2023-12-12 10:04:16Z INFO CommandLineParser] parsing argument
+[2023-12-12 10:04:16Z INFO CommandLineParser] HasArgs: True
+[2023-12-12 10:04:16Z INFO CommandLineParser] Adding option 'startuptype': 'service'
+[2023-12-12 10:04:16Z INFO Listener] Arguments parsed
+[2023-12-12 10:04:16Z INFO Runner] ExecuteCommand
+[2023-12-12 10:04:16Z INFO ConfigurationStore] currentAssemblyLocation: C:\PowerShell\actions-runner\bin\Runner.Listener.dll
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 10:04:16Z INFO ConfigurationStore] binPath: C:\PowerShell\actions-runner\bin
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 10:04:16Z INFO ConfigurationStore] RootFolder: C:\PowerShell\actions-runner
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 10:04:16Z INFO HostContext] Well known config file 'Runner': 'C:\PowerShell\actions-runner\.runner'
+[2023-12-12 10:04:16Z INFO ConfigurationStore] ConfigFilePath: C:\PowerShell\actions-runner\.runner
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 10:04:16Z INFO HostContext] Well known config file 'Credentials': 'C:\PowerShell\actions-runner\.credentials'
+[2023-12-12 10:04:16Z INFO ConfigurationStore] CredFilePath: C:\PowerShell\actions-runner\.credentials
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 10:04:16Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\PowerShell\actions-runner\.credentials_migrated'
+[2023-12-12 10:04:16Z INFO ConfigurationStore] MigratedCredFilePath: C:\PowerShell\actions-runner\.credentials_migrated
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 10:04:16Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 10:04:16Z INFO HostContext] Well known config file 'Service': 'C:\PowerShell\actions-runner\.service'
+[2023-12-12 10:04:16Z INFO ConfigurationStore] ServiceConfigFilePath: C:\PowerShell\actions-runner\.service
+[2023-12-12 10:04:16Z INFO CommandSettings] Flag 'help': 'False'
+[2023-12-12 10:04:16Z INFO CommandSettings] Flag 'version': 'False'
+[2023-12-12 10:04:16Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-12-12 10:04:16Z INFO CommandSettings] Flag 'check': 'False'
+[2023-12-12 10:04:16Z INFO CommandSettings] Command 'configure': 'False'
+[2023-12-12 10:04:16Z INFO CommandSettings] Command 'remove': 'False'
+[2023-12-12 10:04:16Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-12-12 10:04:16Z INFO ConfigurationManager] LoadSettings
+[2023-12-12 10:04:16Z INFO ConfigurationStore] IsConfigured()
+[2023-12-12 10:04:16Z INFO ConfigurationStore] IsConfigured: True
+[2023-12-12 10:04:16Z INFO ConfigurationManager] Is configured: True
+[2023-12-12 10:04:16Z INFO ConfigurationStore] Read setting file: 315 chars
+[2023-12-12 10:04:16Z INFO ConfigurationManager] Settings Loaded
+[2023-12-12 10:04:16Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-12-12 10:04:16Z INFO ConfigurationStore] IsServiceConfigured: True
+[2023-12-12 10:04:16Z INFO CommandSettings] Command 'run': 'True'
+[2023-12-12 10:04:16Z INFO ConfigurationStore] IsConfigured()
+[2023-12-12 10:04:16Z INFO ConfigurationStore] IsConfigured: True
+[2023-12-12 10:04:16Z INFO ConfigurationManager] Is configured: True
+[2023-12-12 10:04:16Z INFO Runner] Set runner startup type - Service
+[2023-12-12 10:04:16Z INFO CommandSettings] Flag 'once': 'False'
+[2023-12-12 10:04:16Z INFO CommandSettings] Flag 'once': 'False'
+[2023-12-12 10:04:16Z INFO Runner] RunAsync
+[2023-12-12 10:04:16Z INFO ConfigurationManager] LoadSettings
+[2023-12-12 10:04:16Z INFO ConfigurationStore] IsConfigured()
+[2023-12-12 10:04:16Z INFO ConfigurationStore] IsConfigured: True
+[2023-12-12 10:04:16Z INFO ConfigurationManager] Is configured: True
+[2023-12-12 10:04:16Z INFO ConfigurationManager] Settings Loaded
+[2023-12-12 10:04:16Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "8QSMSZ2",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/",
+  "GitHubUrl": "https://github.com/tannerpresscorp/PowerShell",
+  "WorkFolder": "_self-hosted"
+}
+[2023-12-12 10:04:16Z INFO MessageListener] Loading Credentials
+[2023-12-12 10:04:16Z INFO ConfigurationStore] HasCredentials()
+[2023-12-12 10:04:16Z INFO ConfigurationStore] stored True
+[2023-12-12 10:04:16Z INFO CredentialManager] GetCredentialProvider
+[2023-12-12 10:04:16Z INFO CredentialManager] Creating type OAuth
+[2023-12-12 10:04:16Z INFO CredentialManager] Creating credential type: OAuth
+[2023-12-12 10:04:17Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 10:04:17Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 10:04:17Z INFO HostContext] Well known config file 'RSACredentials': 'C:\PowerShell\actions-runner\.credentials_rsaparams'
+[2023-12-12 10:04:17Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 10:04:17Z INFO MessageListener] Attempt to create session.
+[2023-12-12 10:04:17Z INFO MessageListener] Connecting to the Runner Server...
+[2023-12-12 10:04:17Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 10:04:17Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-12-12 10:04:21Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 10:04:21Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 10:04:21Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-12-12 10:04:21Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 10:04:21Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 10:04:21Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-12-12 10:04:21Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 10:04:24Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 10:04:24Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 10:04:24Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 10:04:24Z INFO MessageListener] VssConnection created
+[2023-12-12 10:04:24Z INFO Terminal] WRITE LINE: 
+[2023-12-12 10:04:24Z INFO Terminal] WRITE LINE: 
+[2023-12-12 10:04:25Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 10:04:25Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 10:04:26Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 10:04:26Z INFO MessageListener] Session created.
+[2023-12-12 10:04:26Z INFO Terminal] WRITE LINE: Current runner version: '2.311.0'
+[2023-12-12 10:04:28Z INFO Terminal] WRITE LINE: 2023-12-12 10:04:26Z: Listening for Jobs
+[2023-12-12 10:04:28Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2023-12-12 10:34:40Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 10:59:48Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 10:59:49Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 11:04:50Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 11:35:00Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 11:55:05Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 11:55:05Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 12:05:08Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 12:35:18Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 12:50:21Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 12:50:21Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 13:05:27Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 13:31:25Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/distributedtask/pools/1/messages?sessionId=eb862887-b537-4c78-94ee-7068401b65cf&status=Online&runnerVersion=2.311.0&os=Windows&architecture=X64 timed out after 60 seconds.
+[2023-12-12 13:31:26Z ERR  MessageListener] Catch exception during get next message.
+[2023-12-12 13:31:42Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-12-12 13:31:42Z ERR  MessageListener] #####################################################
+[2023-12-12 13:31:42Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 13:31:42Z ERR  MessageListener] #####################################################
+[2023-12-12 13:31:42Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-12-12 13:31:42Z ERR  MessageListener] #####################################################
+[2023-12-12 13:31:42Z ERR  MessageListener] System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+[2023-12-12 13:31:42Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-12-12 13:31:42Z ERR  Terminal] WRITE ERROR: 2023-12-12 13:31:42Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-12-12 13:31:42Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-12-12 13:31:42Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 13:31:42Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-12-12 13:31:42Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 13:32:42Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 timed out after 60 seconds.
+[2023-12-12 13:32:43Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 13:32:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 13:33:43Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 timed out after 60 seconds.
+[2023-12-12 13:33:43Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 13:33:43Z INFO RunnerServer] Catch exception during connect. 4 attempt left.
+[2023-12-12 13:33:43Z ERR  RunnerServer] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-12-12 13:33:43Z ERR  RunnerServer] #####################################################
+[2023-12-12 13:33:43Z ERR  RunnerServer] System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 13:33:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 13:34:43Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 timed out after 60 seconds.
+[2023-12-12 13:34:43Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 13:34:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 13:35:44Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 timed out after 60 seconds.
+[2023-12-12 13:35:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 13:35:44Z INFO RunnerServer] Catch exception during connect. 3 attempt left.
+[2023-12-12 13:35:44Z ERR  RunnerServer] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-12-12 13:35:44Z ERR  RunnerServer] #####################################################
+[2023-12-12 13:35:44Z ERR  RunnerServer] System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 13:35:44Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 13:36:44Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 timed out after 60 seconds.
+[2023-12-12 13:36:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 13:36:44Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 13:36:49Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 13:36:49Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2023-12-12 13:37:15Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 13:38:05Z INFO Terminal] WRITE LINE: 2023-12-12 13:38:05Z: Runner reconnected.
+[2023-12-12 13:45:47Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 13:46:47Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (59.640424 seconds)
+[2023-12-12 13:46:47Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/distributedtask/pools/1/messages?sessionId=eb862887-b537-4c78-94ee-7068401b65cf&status=Online&runnerVersion=2.311.0&os=Windows&architecture=X64 timed out after 60 seconds.
+[2023-12-12 13:46:47Z ERR  MessageListener] Catch exception during get next message.
+[2023-12-12 13:46:47Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.OAuth.VssOAuthTokenHttpClient.GetTokenAsync(VssOAuthGrant grant, VssOAuthClientCredential credential, VssOAuthTokenParameters tokenParameters, CancellationToken cancellationToken)
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-12-12 13:46:47Z ERR  MessageListener] #####################################################
+[2023-12-12 13:46:47Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.OAuth.VssOAuthTokenHttpClient.GetTokenAsync(VssOAuthGrant grant, VssOAuthClientCredential credential, VssOAuthTokenParameters tokenParameters, CancellationToken cancellationToken)
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 13:46:47Z ERR  MessageListener] #####################################################
+[2023-12-12 13:46:47Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-12-12 13:46:47Z ERR  MessageListener] #####################################################
+[2023-12-12 13:46:47Z ERR  MessageListener] System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+[2023-12-12 13:46:47Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-12-12 13:46:47Z ERR  Terminal] WRITE ERROR: 2023-12-12 13:46:47Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-12-12 13:46:47Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-12-12 13:46:47Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 13:46:47Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-12-12 13:46:47Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 13:46:54Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 13:46:54Z INFO MessageListener] Sleeping for 28.273 seconds before retrying.
+[2023-12-12 13:47:23Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 13:47:30Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 13:47:30Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (6.1080496 seconds)
+[2023-12-12 13:48:20Z INFO Terminal] WRITE LINE: 2023-12-12 13:48:20Z: Runner reconnected.
+[2023-12-12 14:07:57Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 14:38:42Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 14:42:57Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 14:43:09Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 14:43:09Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (11.811615 seconds)
+[2023-12-12 14:43:56Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/distributedtask/pools/1/messages?sessionId=eb862887-b537-4c78-94ee-7068401b65cf&status=Online&runnerVersion=2.311.0&os=Windows&architecture=X64 timed out after 60 seconds.
+[2023-12-12 14:43:56Z ERR  MessageListener] Catch exception during get next message.
+[2023-12-12 14:43:56Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|45_0()
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-12-12 14:43:56Z ERR  MessageListener] #####################################################
+[2023-12-12 14:43:56Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|45_0()
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 14:43:56Z ERR  MessageListener] #####################################################
+[2023-12-12 14:43:56Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|45_0()
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-12-12 14:43:56Z ERR  MessageListener] #####################################################
+[2023-12-12 14:43:56Z ERR  MessageListener] System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+[2023-12-12 14:43:56Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-12-12 14:43:56Z ERR  Terminal] WRITE ERROR: 2023-12-12 14:43:56Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-12-12 14:43:56Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-12-12 14:43:56Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 14:43:56Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-12-12 14:43:56Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 14:44:01Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 14:44:01Z INFO MessageListener] Sleeping for 18.857 seconds before retrying.
+[2023-12-12 14:45:10Z INFO Terminal] WRITE LINE: 2023-12-12 14:45:10Z: Runner reconnected.
+[2023-12-12 14:51:13Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/distributedtask/pools/1/messages?sessionId=eb862887-b537-4c78-94ee-7068401b65cf&status=Online&runnerVersion=2.311.0&os=Windows&architecture=X64 timed out after 60 seconds.
+[2023-12-12 14:51:13Z ERR  MessageListener] Catch exception during get next message.
+[2023-12-12 14:51:13Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-12-12 14:51:13Z ERR  MessageListener] #####################################################
+[2023-12-12 14:51:13Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 14:51:13Z ERR  MessageListener] #####################################################
+[2023-12-12 14:51:13Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-12-12 14:51:13Z ERR  MessageListener] #####################################################
+[2023-12-12 14:51:13Z ERR  MessageListener] System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+[2023-12-12 14:51:13Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-12-12 14:51:13Z ERR  Terminal] WRITE ERROR: 2023-12-12 14:51:13Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-12-12 14:51:13Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-12-12 14:51:13Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 14:51:13Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-12-12 14:51:13Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 14:51:17Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 14:51:17Z INFO MessageListener] Sleeping for 16.505 seconds before retrying.
+[2023-12-12 14:52:24Z INFO Terminal] WRITE LINE: 2023-12-12 14:52:24Z: Runner reconnected.
+[2023-12-12 15:09:16Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 15:38:54Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 15:38:56Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 15:39:46Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 16:10:17Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 16:33:58Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 16:33:59Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 16:40:46Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 17:11:32Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 17:29:32Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 17:29:33Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 17:42:23Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 17:43:21Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/distributedtask/pools/1/messages?sessionId=eb862887-b537-4c78-94ee-7068401b65cf&status=Online&runnerVersion=2.311.0&os=Windows&architecture=X64 failed (Socket Error: ConnectionReset). The operation will be retried in 10.819 seconds.
+[2023-12-12 18:13:12Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 18:25:04Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 18:25:06Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 18:43:49Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 18:57:38Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/distributedtask/pools/1/messages?sessionId=eb862887-b537-4c78-94ee-7068401b65cf&status=Online&runnerVersion=2.311.0&os=Windows&architecture=X64 timed out after 60 seconds.
+[2023-12-12 18:57:38Z ERR  MessageListener] Catch exception during get next message.
+[2023-12-12 18:57:38Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-12-12 18:57:38Z ERR  MessageListener] #####################################################
+[2023-12-12 18:57:38Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 18:57:38Z ERR  MessageListener] #####################################################
+[2023-12-12 18:57:38Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-12-12 18:57:38Z ERR  MessageListener] #####################################################
+[2023-12-12 18:57:38Z ERR  MessageListener] System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+[2023-12-12 18:57:38Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-12-12 18:57:38Z ERR  Terminal] WRITE ERROR: 2023-12-12 18:57:38Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-12-12 18:57:38Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-12-12 18:57:38Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 18:57:38Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-12-12 18:57:38Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 18:58:10Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 failed (Socket Error: TimedOut). The operation will be retried in 10.986 seconds.
+[2023-12-12 18:58:53Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 failed (Socket Error: TimedOut). The operation will be retried in 13.474 seconds.
+[2023-12-12 18:59:07Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 18:59:07Z INFO MessageListener] Sleeping for 20.34 seconds before retrying.
+[2023-12-12 19:00:18Z INFO Terminal] WRITE LINE: 2023-12-12 19:00:18Z: Runner reconnected.
+[2023-12-12 19:14:00Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 19:20:49Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 19:20:51Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 19:44:19Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 20:14:26Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 20:16:06Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 20:16:07Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 20:44:33Z INFO MessageListener] No message retrieved from session 'eb862887-b537-4c78-94ee-7068401b65cf' within last 30 minutes.
+[2023-12-12 20:56:55Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2023-12-12 20:56:55Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/distributedtask/pools/1/messages?sessionId=eb862887-b537-4c78-94ee-7068401b65cf&status=Online&runnerVersion=2.311.0&os=Windows&architecture=X64 has been cancelled.
+[2023-12-12 20:56:55Z INFO MessageListener] Get next message has been cancelled.
+[2023-12-12 20:56:55Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2023-12-12 20:56:56Z INFO Listener] Runner execution been cancelled.

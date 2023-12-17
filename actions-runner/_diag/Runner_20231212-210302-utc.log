@@ -1,0 +1,715 @@
+[2023-12-12 21:03:03Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-12-12 21:03:03Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 21:03:03Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 21:03:03Z INFO HostContext] Well known config file 'Credentials': 'C:\PowerShell\actions-runner\.credentials'
+[2023-12-12 21:03:13Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 21:03:13Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 21:03:13Z INFO HostContext] Well known config file 'Runner': 'C:\PowerShell\actions-runner\.runner'
+[2023-12-12 21:03:14Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2023-12-12 21:03:14Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2023-12-12 21:03:15Z INFO Listener] Version: 2.311.0
+[2023-12-12 21:03:15Z INFO Listener] Commit: f5cff308c83746dddd726a9a28a1583872305aaa
+[2023-12-12 21:03:15Z INFO Listener] Culture: en-US
+[2023-12-12 21:03:15Z INFO Listener] UI Culture: en-US
+[2023-12-12 21:03:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 21:03:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 21:03:15Z INFO Listener] Validating directory permissions for: 'C:\PowerShell\actions-runner'
+[2023-12-12 21:03:15Z INFO CommandLineParser] Parse
+[2023-12-12 21:03:15Z INFO CommandLineParser] Parsing 3 args
+[2023-12-12 21:03:15Z INFO CommandLineParser] parsing argument
+[2023-12-12 21:03:15Z INFO CommandLineParser] HasArgs: False
+[2023-12-12 21:03:15Z INFO CommandLineParser] Adding Command: run
+[2023-12-12 21:03:15Z INFO CommandLineParser] parsing argument
+[2023-12-12 21:03:15Z INFO CommandLineParser] HasArgs: True
+[2023-12-12 21:03:15Z INFO CommandLineParser] arg: startuptype
+[2023-12-12 21:03:15Z INFO CommandLineParser] parsing argument
+[2023-12-12 21:03:15Z INFO CommandLineParser] HasArgs: True
+[2023-12-12 21:03:15Z INFO CommandLineParser] Adding option 'startuptype': 'service'
+[2023-12-12 21:03:15Z INFO Listener] Arguments parsed
+[2023-12-12 21:03:16Z INFO Runner] ExecuteCommand
+[2023-12-12 21:03:16Z INFO ConfigurationStore] currentAssemblyLocation: C:\PowerShell\actions-runner\bin\Runner.Listener.dll
+[2023-12-12 21:03:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 21:03:16Z INFO ConfigurationStore] binPath: C:\PowerShell\actions-runner\bin
+[2023-12-12 21:03:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 21:03:16Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 21:03:16Z INFO ConfigurationStore] RootFolder: C:\PowerShell\actions-runner
+[2023-12-12 21:03:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 21:03:16Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 21:03:16Z INFO HostContext] Well known config file 'Runner': 'C:\PowerShell\actions-runner\.runner'
+[2023-12-12 21:03:16Z INFO ConfigurationStore] ConfigFilePath: C:\PowerShell\actions-runner\.runner
+[2023-12-12 21:03:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 21:03:16Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 21:03:16Z INFO HostContext] Well known config file 'Credentials': 'C:\PowerShell\actions-runner\.credentials'
+[2023-12-12 21:03:16Z INFO ConfigurationStore] CredFilePath: C:\PowerShell\actions-runner\.credentials
+[2023-12-12 21:03:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 21:03:16Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 21:03:16Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\PowerShell\actions-runner\.credentials_migrated'
+[2023-12-12 21:03:16Z INFO ConfigurationStore] MigratedCredFilePath: C:\PowerShell\actions-runner\.credentials_migrated
+[2023-12-12 21:03:16Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 21:03:16Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 21:03:16Z INFO HostContext] Well known config file 'Service': 'C:\PowerShell\actions-runner\.service'
+[2023-12-12 21:03:16Z INFO ConfigurationStore] ServiceConfigFilePath: C:\PowerShell\actions-runner\.service
+[2023-12-12 21:03:16Z INFO CommandSettings] Flag 'help': 'False'
+[2023-12-12 21:03:16Z INFO CommandSettings] Flag 'version': 'False'
+[2023-12-12 21:03:16Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-12-12 21:03:16Z INFO CommandSettings] Flag 'check': 'False'
+[2023-12-12 21:03:16Z INFO CommandSettings] Command 'configure': 'False'
+[2023-12-12 21:03:16Z INFO CommandSettings] Command 'remove': 'False'
+[2023-12-12 21:03:16Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-12-12 21:03:16Z INFO ConfigurationManager] LoadSettings
+[2023-12-12 21:03:16Z INFO ConfigurationStore] IsConfigured()
+[2023-12-12 21:03:16Z INFO ConfigurationStore] IsConfigured: True
+[2023-12-12 21:03:16Z INFO ConfigurationManager] Is configured: True
+[2023-12-12 21:03:16Z INFO ConfigurationStore] Read setting file: 315 chars
+[2023-12-12 21:03:16Z INFO ConfigurationManager] Settings Loaded
+[2023-12-12 21:03:16Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-12-12 21:03:16Z INFO ConfigurationStore] IsServiceConfigured: True
+[2023-12-12 21:03:16Z INFO CommandSettings] Command 'run': 'True'
+[2023-12-12 21:03:16Z INFO ConfigurationStore] IsConfigured()
+[2023-12-12 21:03:16Z INFO ConfigurationStore] IsConfigured: True
+[2023-12-12 21:03:16Z INFO ConfigurationManager] Is configured: True
+[2023-12-12 21:03:16Z INFO Runner] Set runner startup type - Service
+[2023-12-12 21:03:16Z INFO CommandSettings] Flag 'once': 'False'
+[2023-12-12 21:03:16Z INFO CommandSettings] Flag 'once': 'False'
+[2023-12-12 21:03:16Z INFO Runner] RunAsync
+[2023-12-12 21:03:16Z INFO ConfigurationManager] LoadSettings
+[2023-12-12 21:03:16Z INFO ConfigurationStore] IsConfigured()
+[2023-12-12 21:03:16Z INFO ConfigurationStore] IsConfigured: True
+[2023-12-12 21:03:16Z INFO ConfigurationManager] Is configured: True
+[2023-12-12 21:03:16Z INFO ConfigurationManager] Settings Loaded
+[2023-12-12 21:03:16Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "8QSMSZ2",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/",
+  "GitHubUrl": "https://github.com/tannerpresscorp/PowerShell",
+  "WorkFolder": "_self-hosted"
+}
+[2023-12-12 21:03:16Z INFO MessageListener] Loading Credentials
+[2023-12-12 21:03:16Z INFO ConfigurationStore] HasCredentials()
+[2023-12-12 21:03:16Z INFO ConfigurationStore] stored True
+[2023-12-12 21:03:16Z INFO CredentialManager] GetCredentialProvider
+[2023-12-12 21:03:16Z INFO CredentialManager] Creating type OAuth
+[2023-12-12 21:03:16Z INFO CredentialManager] Creating credential type: OAuth
+[2023-12-12 21:03:17Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-12 21:03:17Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-12 21:03:17Z INFO HostContext] Well known config file 'RSACredentials': 'C:\PowerShell\actions-runner\.credentials_rsaparams'
+[2023-12-12 21:03:17Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 21:03:18Z INFO MessageListener] Attempt to create session.
+[2023-12-12 21:03:18Z INFO MessageListener] Connecting to the Runner Server...
+[2023-12-12 21:03:18Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 21:03:18Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-12-12 21:03:24Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 21:03:25Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 21:03:25Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-12-12 21:03:25Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 21:03:25Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 21:03:25Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-12-12 21:03:25Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 21:03:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 21:03:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 21:03:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 21:03:30Z INFO MessageListener] VssConnection created
+[2023-12-12 21:03:30Z INFO Terminal] WRITE LINE: 
+[2023-12-12 21:03:30Z INFO Terminal] WRITE LINE: 
+[2023-12-12 21:03:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 21:03:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 21:03:32Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 21:03:33Z INFO MessageListener] Session created.
+[2023-12-12 21:03:33Z INFO Terminal] WRITE LINE: Current runner version: '2.311.0'
+[2023-12-12 21:03:34Z INFO Terminal] WRITE LINE: 2023-12-12 21:03:33Z: Listening for Jobs
+[2023-12-12 21:03:34Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2023-12-12 21:33:42Z INFO MessageListener] No message retrieved from session '15e9779a-f36e-4146-bcdf-ef1d6ab33e5a' within last 30 minutes.
+[2023-12-12 21:58:49Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 21:58:50Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 22:03:51Z INFO MessageListener] No message retrieved from session '15e9779a-f36e-4146-bcdf-ef1d6ab33e5a' within last 30 minutes.
+[2023-12-12 22:34:02Z INFO MessageListener] No message retrieved from session '15e9779a-f36e-4146-bcdf-ef1d6ab33e5a' within last 30 minutes.
+[2023-12-12 22:54:07Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 22:54:09Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 23:04:12Z INFO MessageListener] No message retrieved from session '15e9779a-f36e-4146-bcdf-ef1d6ab33e5a' within last 30 minutes.
+[2023-12-12 23:34:56Z INFO MessageListener] No message retrieved from session '15e9779a-f36e-4146-bcdf-ef1d6ab33e5a' within last 30 minutes.
+[2023-12-12 23:43:35Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/distributedtask/pools/1/messages?sessionId=15e9779a-f36e-4146-bcdf-ef1d6ab33e5a&status=Online&runnerVersion=2.311.0&os=Windows&architecture=X64 timed out after 60 seconds.
+[2023-12-12 23:43:36Z ERR  MessageListener] Catch exception during get next message.
+[2023-12-12 23:43:37Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-12-12 23:43:37Z ERR  MessageListener] #####################################################
+[2023-12-12 23:43:37Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 23:43:37Z ERR  MessageListener] #####################################################
+[2023-12-12 23:43:37Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-12-12 23:43:37Z ERR  MessageListener] #####################################################
+[2023-12-12 23:43:37Z ERR  MessageListener] System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+[2023-12-12 23:43:37Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-12-12 23:43:37Z ERR  Terminal] WRITE ERROR: 2023-12-12 23:43:37Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-12-12 23:43:37Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-12-12 23:43:37Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 23:43:37Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-12-12 23:43:37Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 23:43:48Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 failed. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 23:43:48Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 23:43:48Z INFO RunnerServer] Catch exception during connect. 4 attempt left.
+[2023-12-12 23:43:48Z ERR  RunnerServer] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-12-12 23:43:48Z ERR  RunnerServer] #####################################################
+[2023-12-12 23:43:48Z ERR  RunnerServer] System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+[2023-12-12 23:43:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 23:44:00Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 failed. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 23:44:00Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 23:44:00Z INFO RunnerServer] Catch exception during connect. 3 attempt left.
+[2023-12-12 23:44:00Z ERR  RunnerServer] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-12-12 23:44:00Z ERR  RunnerServer] #####################################################
+[2023-12-12 23:44:00Z ERR  RunnerServer] System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+[2023-12-12 23:44:00Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 23:44:11Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 failed. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 23:44:11Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 23:44:11Z INFO RunnerServer] Catch exception during connect. 2 attempt left.
+[2023-12-12 23:44:11Z ERR  RunnerServer] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-12-12 23:44:11Z ERR  RunnerServer] #####################################################
+[2023-12-12 23:44:11Z ERR  RunnerServer] System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+[2023-12-12 23:44:11Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 23:44:22Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 failed. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 23:44:22Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 23:44:22Z INFO RunnerServer] Catch exception during connect. 1 attempt left.
+[2023-12-12 23:44:22Z ERR  RunnerServer] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-12-12 23:44:22Z ERR  RunnerServer] #####################################################
+[2023-12-12 23:44:22Z ERR  RunnerServer] System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+[2023-12-12 23:44:22Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 23:44:33Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 failed. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 23:44:33Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 23:44:33Z ERR  RunnerServer] Catch exception during reset MessageQueue connection.
+[2023-12-12 23:44:33Z ERR  RunnerServer] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+   at GitHub.Runner.Common.RunnerServer.RefreshConnectionAsync(RunnerConnectionType connectionType, TimeSpan timeout)
+[2023-12-12 23:44:33Z ERR  RunnerServer] #####################################################
+[2023-12-12 23:44:33Z ERR  RunnerServer] System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+[2023-12-12 23:44:33Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2023-12-12 23:45:10Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/distributedtask/pools/1/messages?sessionId=15e9779a-f36e-4146-bcdf-ef1d6ab33e5a&status=Online&runnerVersion=2.311.0&os=Windows&architecture=X64 failed. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 23:45:10Z ERR  MessageListener] Catch exception during get next message.
+[2023-12-12 23:45:10Z ERR  MessageListener] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-12-12 23:45:10Z ERR  MessageListener] #####################################################
+[2023-12-12 23:45:10Z ERR  MessageListener] System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+[2023-12-12 23:45:10Z INFO MessageListener] Retriable exception: The SSL connection could not be established, see inner exception.
+[2023-12-12 23:45:10Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-12-12 23:45:10Z INFO RunnerServer] EstablishVssConnection
+[2023-12-12 23:45:10Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-12-12 23:45:10Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 23:45:21Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 failed. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 23:45:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 23:45:21Z INFO RunnerServer] Catch exception during connect. 4 attempt left.
+[2023-12-12 23:45:21Z ERR  RunnerServer] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-12-12 23:45:21Z ERR  RunnerServer] #####################################################
+[2023-12-12 23:45:21Z ERR  RunnerServer] System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+[2023-12-12 23:45:21Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 23:45:23Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 failed. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 23:45:23Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 23:45:23Z INFO RunnerServer] Catch exception during connect. 3 attempt left.
+[2023-12-12 23:45:23Z ERR  RunnerServer] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-12-12 23:45:23Z ERR  RunnerServer] #####################################################
+[2023-12-12 23:45:23Z ERR  RunnerServer] System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+[2023-12-12 23:45:23Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 23:45:23Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 failed. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 23:45:23Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 23:45:23Z INFO RunnerServer] Catch exception during connect. 2 attempt left.
+[2023-12-12 23:45:23Z ERR  RunnerServer] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-12-12 23:45:23Z ERR  RunnerServer] #####################################################
+[2023-12-12 23:45:23Z ERR  RunnerServer] System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+[2023-12-12 23:45:24Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 23:45:24Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 failed. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 23:45:24Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 23:45:24Z INFO RunnerServer] Catch exception during connect. 1 attempt left.
+[2023-12-12 23:45:24Z ERR  RunnerServer] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-12-12 23:45:24Z ERR  RunnerServer] #####################################################
+[2023-12-12 23:45:24Z ERR  RunnerServer] System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+[2023-12-12 23:45:24Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-12 23:45:24Z ERR  GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/connectionData?connectOptions=1&lastChangeId=4136963&lastChangeId64=4136963 failed. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-12-12 23:45:24Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-12 23:45:24Z ERR  RunnerServer] Catch exception during reset MessageQueue connection.
+[2023-12-12 23:45:24Z ERR  RunnerServer] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+   at GitHub.Runner.Common.RunnerServer.RefreshConnectionAsync(RunnerConnectionType connectionType, TimeSpan timeout)
+[2023-12-12 23:45:24Z ERR  RunnerServer] #####################################################
+[2023-12-12 23:45:24Z ERR  RunnerServer] System.Security.Authentication.AuthenticationException: The remote certificate is invalid according to the validation procedure: RemoteCertificateNameMismatch, RemoteCertificateChainErrors
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+[2023-12-12 23:45:24Z INFO MessageListener] Sleeping for 28.273 seconds before retrying.
+[2023-12-12 23:46:43Z INFO Terminal] WRITE LINE: 2023-12-12 23:46:43Z: Runner reconnected.
+[2023-12-12 23:49:14Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-12 23:49:17Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-12 23:49:17Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (2.7419733 seconds)
+[2023-12-13 00:05:26Z INFO MessageListener] No message retrieved from session '15e9779a-f36e-4146-bcdf-ef1d6ab33e5a' within last 30 minutes.
+[2023-12-13 00:35:55Z INFO MessageListener] No message retrieved from session '15e9779a-f36e-4146-bcdf-ef1d6ab33e5a' within last 30 minutes.
+[2023-12-13 00:44:17Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-13 00:44:19Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-13 00:44:19Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (2.8662244 seconds)
+[2023-12-13 01:06:04Z INFO MessageListener] No message retrieved from session '15e9779a-f36e-4146-bcdf-ef1d6ab33e5a' within last 30 minutes.
+[2023-12-13 01:32:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-13 01:32:30Z INFO MessageListener] Message '2' received from session '15e9779a-f36e-4146-bcdf-ef1d6ab33e5a'.
+[2023-12-13 01:32:30Z INFO Runner] Received job message of length 58217 from service, with hash 'b45cfd2959b645719f400402daf3c70ba68f197b394e0cc6c59ca0823607c5cb'
+[2023-12-13 01:32:30Z INFO JobDispatcher] Job request 9 for plan 8c557e56-cb57-46fd-a64e-d9b8c1f7d3b4 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2023-12-13 01:32:30Z INFO JobDispatcher] Pull OrchestrationId 8c557e56-cb57-46fd-a64e-d9b8c1f7d3b4.build.__default from JWT claims
+[2023-12-13 01:32:30Z INFO Terminal] WRITE LINE: 2023-12-13 01:32:30Z: Running job: build
+[2023-12-13 01:32:30Z INFO JobDispatcher] Start renew job request 9 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2023-12-13 01:32:31Z INFO JobDispatcher] Successfully renew job request 9, job is valid till 12/13/2023 1:42:33 AM
+[2023-12-13 01:32:31Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-13 01:32:31Z INFO ProcessInvokerWrapper] Starting process:
+[2023-12-13 01:32:31Z INFO ProcessInvokerWrapper]   File name: 'C:\PowerShell\actions-runner\bin\Runner.Worker.exe'
+[2023-12-13 01:32:31Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2304 2456'
+[2023-12-13 01:32:31Z INFO ProcessInvokerWrapper]   Working directory: 'C:\PowerShell\actions-runner\bin'
+[2023-12-13 01:32:31Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-12-13 01:32:31Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-12-13 01:32:31Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-12-13 01:32:31Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-12-13 01:32:31Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-12-13 01:32:31Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-12-13 01:32:31Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-12-13 01:32:31Z INFO ProcessInvokerWrapper] Process started with process id 73432, waiting for process exit.
+[2023-12-13 01:32:31Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2023-12-13 01:32:31Z INFO ProcessChannel] Sending message of length 58217, with hash 'b45cfd2959b645719f400402daf3c70ba68f197b394e0cc6c59ca0823607c5cb'
+[2023-12-13 01:32:35Z INFO JobNotification] Entering JobStarted Notification
+[2023-12-13 01:32:35Z INFO JobNotification] Entering StartMonitor
+[2023-12-13 01:33:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-12-13 01:33:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-12-13 01:33:21Z INFO ProcessInvokerWrapper] Finished process 73432 with exit code 102, and elapsed time 00:00:49.9408099.
+[2023-12-13 01:33:21Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2023-12-13 01:33:21Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2023-12-13 01:33:21Z INFO Terminal] WRITE LINE: 2023-12-13 01:33:21Z: Job build completed with result: Failed
+[2023-12-13 01:33:21Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2023-12-13 01:33:21Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 9.
+[2023-12-13 01:33:21Z INFO JobNotification] Entering JobCompleted Notification
+[2023-12-13 01:33:21Z INFO JobNotification] Entering EndMonitor
+[2023-12-13 01:40:05Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-13 01:40:06Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-13 02:02:44Z INFO MessageListener] No message retrieved from session '15e9779a-f36e-4146-bcdf-ef1d6ab33e5a' within last 30 minutes.
+[2023-12-13 02:32:57Z INFO MessageListener] No message retrieved from session '15e9779a-f36e-4146-bcdf-ef1d6ab33e5a' within last 30 minutes.
+[2023-12-13 02:35:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\PowerShell\actions-runner\.credentials_rsaparams
+[2023-12-13 02:35:28Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-12-13 02:43:57Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2023-12-13 02:43:57Z WARN GitHubActionsService] GET request to https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/_apis/distributedtask/pools/1/messages?sessionId=15e9779a-f36e-4146-bcdf-ef1d6ab33e5a&lastMessageId=2&status=Online&runnerVersion=2.311.0&os=Windows&architecture=X64 has been cancelled.
+[2023-12-13 02:43:57Z INFO MessageListener] Get next message has been cancelled.
+[2023-12-13 02:43:57Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2023-12-13 02:43:57Z INFO JobDispatcher] Ensure WorkerDispatcher for job ca395085-040a-526b-2ce8-bdc85f692774 run to finish, cancel any running job.
+[2023-12-13 02:43:57Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2023-12-13 02:43:58Z INFO Listener] Runner execution been cancelled.

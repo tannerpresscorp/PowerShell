@@ -1,0 +1,4348 @@
+[2023-12-14 01:29:10Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-12-14 01:29:10Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:10Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:10Z INFO HostContext] Well known config file 'Credentials': 'C:\PowerShell\actions-runner\.credentials'
+[2023-12-14 01:29:11Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:11Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:11Z INFO HostContext] Well known config file 'Runner': 'C:\PowerShell\actions-runner\.runner'
+[2023-12-14 01:29:11Z INFO Worker] Version: 2.311.0
+[2023-12-14 01:29:11Z INFO Worker] Commit: f5cff308c83746dddd726a9a28a1583872305aaa
+[2023-12-14 01:29:11Z INFO Worker] Culture: en-US
+[2023-12-14 01:29:11Z INFO Worker] UI Culture: en-US
+[2023-12-14 01:29:12Z INFO Worker] Waiting to receive the job message from the channel.
+[2023-12-14 01:29:12Z INFO ProcessChannel] Receiving message of length 58193, with hash 'e8e71fa4c00eef63104e3478349a828db8149ca14ed879117aaa47eaf0222e4e'
+[2023-12-14 01:29:12Z INFO Worker] Message received.
+[2023-12-14 01:29:12Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/docker-image.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v3",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "a60052d4-79a0-5821-3eeb-84adb9872c5b",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 17,
+        "col": 13,
+        "lit": "Build the Docker image"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 18,
+              "col": 12,
+              "lit": "docker build . --file Dockerfile --tag my-image-name:$(date +%s)"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "dd23db01-cff6-57a4-373a-5c8097a97333",
+      "name": "__run"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": ""
+    },
+    "system.pipelineStartTime": {
+      "value": "2023-12-14 01:29:01+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode16": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.LogTemplateErrorsAsDebugMessages": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "Actions.EnableHttpRedirects": {
+      "value": "true"
+    },
+    "DistributedTask.UseActionArchiveCache": {
+      "value": "true"
+    },
+    "DistributedTask.UseWhich2": {
+      "value": "true"
+    },
+    "DistributedTask.DetailUntarFailure": {
+      "value": "true"
+    },
+    "DistributedTask.EnableJobServerQueueTelemetry": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "14"
+    },
+    "build.containerId": {
+      "value": "28501345"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/docker-image.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "build"
+    },
+    "system.phaseId": {
+      "value": "6884a131-87da-5381-61f3-d7acc3b91d76"
+    },
+    "system.phaseName": {
+      "value": "build"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "build.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "build"
+    },
+    "system.jobDisplayName": {
+      "value": "build"
+    },
+    "system.jobId": {
+      "value": "ca395085-040a-526b-2ce8-bdc85f692774"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Actions\":\"read\",\"Checks\":\"read\",\"Contents\":\"read\",\"Deployments\":\"read\",\"Discussions\":\"read\",\"Issues\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\",\"Pages\":\"read\",\"PullRequests\":\"read\",\"RepositoryProjects\":\"read\",\"SecurityEvents\":\"read\",\"Statuses\":\"read\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    },
+    "system.github.results_endpoint": {
+      "value": "https://results-receiver.actions.githubusercontent.com/"
+    },
+    "system.orchestrationId": {
+      "value": "c21e4f1b-f26b-4a26-80c7-d8b2fab965ba.build.__default"
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 37,
+    "planId": "c21e4f1b-f26b-4a26-80c7-d8b2fab965ba",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/14",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "PowerShell"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "tannerpresscorp"
+    }
+  },
+  "timeline": {
+    "id": "c21e4f1b-f26b-4a26-80c7-d8b2fab965ba",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "ca395085-040a-526b-2ce8-bdc85f692774",
+  "jobDisplayName": "build",
+  "jobName": "__default",
+  "requestId": 15,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "8334c40e-fcef-4e7b-a21a-44b041996e52",
+          "ServerName": "iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO",
+          "CacheServerUrl": "https://acghubeus2.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/",
+          "FeedStreamUrl": "https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/c21e4f1b-f26b-4a26-80c7-d8b2fab965ba/timelines/c21e4f1b-f26b-4a26-80c7-d8b2fab965ba/records/ca395085-040a-526b-2ce8-bdc85f692774/feedstream?api-version=6.0-preview",
+          "ResultsServiceUrl": "https://results-receiver.actions.githubusercontent.com/",
+          "ConnectivityChecks": "[\"https://acghubeus0.actions.githubusercontent.com/_apis/health\",\"https://results-receiver.actions.githubusercontent.com/health\",\"https://actions-results-receiver-production.githubapp.com/health\",\"https://pipelinesghubeus25.actions.githubusercontent.com/_apis/health\"]"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/pull/4/merge"
+        },
+        {
+          "k": "sha",
+          "v": "74541401a8320ba7316206084afaa097138b13fc"
+        },
+        {
+          "k": "repository",
+          "v": "tannerpresscorp/PowerShell"
+        },
+        {
+          "k": "repository_owner",
+          "v": "tannerpresscorp"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "136050734"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/tannerpresscorp/PowerShell.git"
+        },
+        {
+          "k": "run_id",
+          "v": "7203275857"
+        },
+        {
+          "k": "run_number",
+          "v": "3"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repo-self-hosted-runners-disabled",
+          "v": false
+        },
+        {
+          "k": "enterprise-managed-business-id",
+          "v": ""
+        },
+        {
+          "k": "repository_id",
+          "v": "730536514"
+        },
+        {
+          "k": "actor_id",
+          "v": "49699333"
+        },
+        {
+          "k": "actor",
+          "v": "dependabot[bot]"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "dependabot[bot]"
+        },
+        {
+          "k": "workflow",
+          "v": "Docker Image CI"
+        },
+        {
+          "k": "head_ref",
+          "v": "dependabot/github_actions/github/codeql-action-3"
+        },
+        {
+          "k": "base_ref",
+          "v": "master"
+        },
+        {
+          "k": "event_name",
+          "v": "pull_request"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "action",
+                "v": "opened"
+              },
+              {
+                "k": "number",
+                "v": 4.0
+              },
+              {
+                "k": "organization",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/136050734?v=4"
+                    },
+                    {
+                      "k": "description",
+                      "v": ""
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/orgs/tannerpresscorp/events"
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/orgs/tannerpresscorp/hooks"
+                    },
+                    {
+                      "k": "id",
+                      "v": 136050734.0
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/orgs/tannerpresscorp/issues"
+                    },
+                    {
+                      "k": "login",
+                      "v": "tannerpresscorp"
+                    },
+                    {
+                      "k": "members_url",
+                      "v": "https://api.github.com/orgs/tannerpresscorp/members{/member}"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "O_kgDOCBv4Lg"
+                    },
+                    {
+                      "k": "public_members_url",
+                      "v": "https://api.github.com/orgs/tannerpresscorp/public_members{/member}"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/orgs/tannerpresscorp/repos"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/orgs/tannerpresscorp"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pull_request",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "_links",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "comments",
+                            "v": {
+                              "t": 2,
+                              "d": [
+                                {
+                                  "k": "href",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues/4/comments"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "k": "commits",
+                            "v": {
+                              "t": 2,
+                              "d": [
+                                {
+                                  "k": "href",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/pulls/4/commits"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "k": "html",
+                            "v": {
+                              "t": 2,
+                              "d": [
+                                {
+                                  "k": "href",
+                                  "v": "https://github.com/tannerpresscorp/PowerShell/pull/4"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "k": "issue",
+                            "v": {
+                              "t": 2,
+                              "d": [
+                                {
+                                  "k": "href",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues/4"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "k": "review_comment",
+                            "v": {
+                              "t": 2,
+                              "d": [
+                                {
+                                  "k": "href",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/pulls/comments{/number}"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "k": "review_comments",
+                            "v": {
+                              "t": 2,
+                              "d": [
+                                {
+                                  "k": "href",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/pulls/4/comments"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "k": "self",
+                            "v": {
+                              "t": 2,
+                              "d": [
+                                {
+                                  "k": "href",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/pulls/4"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "k": "statuses",
+                            "v": {
+                              "t": 2,
+                              "d": [
+                                {
+                                  "k": "href",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/statuses/24f2dca789dd159531238ea4bc09067ece2e858d"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "active_lock_reason",
+                      "v": null
+                    },
+                    {
+                      "k": "additions",
+                      "v": 2.0
+                    },
+                    {
+                      "k": "assignee",
+                      "v": null
+                    },
+                    {
+                      "k": "assignees",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "author_association",
+                      "v": "NONE"
+                    },
+                    {
+                      "k": "auto_merge",
+                      "v": null
+                    },
+                    {
+                      "k": "base",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "label",
+                            "v": "tannerpresscorp:master"
+                          },
+                          {
+                            "k": "ref",
+                            "v": "master"
+                          },
+                          {
+                            "k": "repo",
+                            "v": {
+                              "t": 2,
+                              "d": [
+                                {
+                                  "k": "allow_auto_merge",
+                                  "v": false
+                                },
+                                {
+                                  "k": "allow_forking",
+                                  "v": true
+                                },
+                                {
+                                  "k": "allow_merge_commit",
+                                  "v": true
+                                },
+                                {
+                                  "k": "allow_rebase_merge",
+                                  "v": true
+                                },
+                                {
+                                  "k": "allow_squash_merge",
+                                  "v": true
+                                },
+                                {
+                                  "k": "allow_update_branch",
+                                  "v": false
+                                },
+                                {
+                                  "k": "archive_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/{archive_format}{/ref}"
+                                },
+                                {
+                                  "k": "archived",
+                                  "v": false
+                                },
+                                {
+                                  "k": "assignees_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/assignees{/user}"
+                                },
+                                {
+                                  "k": "blobs_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/blobs{/sha}"
+                                },
+                                {
+                                  "k": "branches_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/branches{/branch}"
+                                },
+                                {
+                                  "k": "clone_url",
+                                  "v": "https://github.com/tannerpresscorp/PowerShell.git"
+                                },
+                                {
+                                  "k": "collaborators_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/collaborators{/collaborator}"
+                                },
+                                {
+                                  "k": "comments_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/comments{/number}"
+                                },
+                                {
+                                  "k": "commits_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/commits{/sha}"
+                                },
+                                {
+                                  "k": "compare_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/compare/{base}...{head}"
+                                },
+                                {
+                                  "k": "contents_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/contents/{+path}"
+                                },
+                                {
+                                  "k": "contributors_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/contributors"
+                                },
+                                {
+                                  "k": "created_at",
+                                  "v": "2023-12-12T06:19:29Z"
+                                },
+                                {
+                                  "k": "default_branch",
+                                  "v": "master"
+                                },
+                                {
+                                  "k": "delete_branch_on_merge",
+                                  "v": false
+                                },
+                                {
+                                  "k": "deployments_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/deployments"
+                                },
+                                {
+                                  "k": "description",
+                                  "v": "PowerShell for every system!"
+                                },
+                                {
+                                  "k": "disabled",
+                                  "v": false
+                                },
+                                {
+                                  "k": "downloads_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/downloads"
+                                },
+                                {
+                                  "k": "events_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/events"
+                                },
+                                {
+                                  "k": "fork",
+                                  "v": true
+                                },
+                                {
+                                  "k": "forks",
+                                  "v": 0.0
+                                },
+                                {
+                                  "k": "forks_count",
+                                  "v": 0.0
+                                },
+                                {
+                                  "k": "forks_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/forks"
+                                },
+                                {
+                                  "k": "full_name",
+                                  "v": "tannerpresscorp/PowerShell"
+                                },
+                                {
+                                  "k": "git_commits_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/commits{/sha}"
+                                },
+                                {
+                                  "k": "git_refs_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/refs{/sha}"
+                                },
+                                {
+                                  "k": "git_tags_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/tags{/sha}"
+                                },
+                                {
+                                  "k": "git_url",
+                                  "v": "git://github.com/tannerpresscorp/PowerShell.git"
+                                },
+                                {
+                                  "k": "has_discussions",
+                                  "v": false
+                                },
+                                {
+                                  "k": "has_downloads",
+                                  "v": true
+                                },
+                                {
+                                  "k": "has_issues",
+                                  "v": false
+                                },
+                                {
+                                  "k": "has_pages",
+                                  "v": false
+                                },
+                                {
+                                  "k": "has_projects",
+                                  "v": true
+                                },
+                                {
+                                  "k": "has_wiki",
+                                  "v": false
+                                },
+                                {
+                                  "k": "homepage",
+                                  "v": "https://microsoft.com/PowerShell"
+                                },
+                                {
+                                  "k": "hooks_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/hooks"
+                                },
+                                {
+                                  "k": "html_url",
+                                  "v": "https://github.com/tannerpresscorp/PowerShell"
+                                },
+                                {
+                                  "k": "id",
+                                  "v": 730536514.0
+                                },
+                                {
+                                  "k": "is_template",
+                                  "v": false
+                                },
+                                {
+                                  "k": "issue_comment_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues/comments{/number}"
+                                },
+                                {
+                                  "k": "issue_events_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues/events{/number}"
+                                },
+                                {
+                                  "k": "issues_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues{/number}"
+                                },
+                                {
+                                  "k": "keys_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/keys{/key_id}"
+                                },
+                                {
+                                  "k": "labels_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/labels{/name}"
+                                },
+                                {
+                                  "k": "language",
+                                  "v": "C#"
+                                },
+                                {
+                                  "k": "languages_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/languages"
+                                },
+                                {
+                                  "k": "license",
+                                  "v": {
+                                    "t": 2,
+                                    "d": [
+                                      {
+                                        "k": "key",
+                                        "v": "mit"
+                                      },
+                                      {
+                                        "k": "name",
+                                        "v": "MIT License"
+                                      },
+                                      {
+                                        "k": "node_id",
+                                        "v": "MDc6TGljZW5zZTEz"
+                                      },
+                                      {
+                                        "k": "spdx_id",
+                                        "v": "MIT"
+                                      },
+                                      {
+                                        "k": "url",
+                                        "v": "https://api.github.com/licenses/mit"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "k": "merge_commit_message",
+                                  "v": "PR_TITLE"
+                                },
+                                {
+                                  "k": "merge_commit_title",
+                                  "v": "MERGE_MESSAGE"
+                                },
+                                {
+                                  "k": "merges_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/merges"
+                                },
+                                {
+                                  "k": "milestones_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/milestones{/number}"
+                                },
+                                {
+                                  "k": "mirror_url",
+                                  "v": null
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "PowerShell"
+                                },
+                                {
+                                  "k": "node_id",
+                                  "v": "R_kgDOK4saQg"
+                                },
+                                {
+                                  "k": "notifications_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/notifications{?since,all,participating}"
+                                },
+                                {
+                                  "k": "open_issues",
+                                  "v": 2.0
+                                },
+                                {
+                                  "k": "open_issues_count",
+                                  "v": 2.0
+                                },
+                                {
+                                  "k": "owner",
+                                  "v": {
+                                    "t": 2,
+                                    "d": [
+                                      {
+                                        "k": "avatar_url",
+                                        "v": "https://avatars.githubusercontent.com/u/136050734?v=4"
+                                      },
+                                      {
+                                        "k": "events_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/events{/privacy}"
+                                      },
+                                      {
+                                        "k": "followers_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/followers"
+                                      },
+                                      {
+                                        "k": "following_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/following{/other_user}"
+                                      },
+                                      {
+                                        "k": "gists_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/gists{/gist_id}"
+                                      },
+                                      {
+                                        "k": "gravatar_id",
+                                        "v": ""
+                                      },
+                                      {
+                                        "k": "html_url",
+                                        "v": "https://github.com/tannerpresscorp"
+                                      },
+                                      {
+                                        "k": "id",
+                                        "v": 136050734.0
+                                      },
+                                      {
+                                        "k": "login",
+                                        "v": "tannerpresscorp"
+                                      },
+                                      {
+                                        "k": "node_id",
+                                        "v": "O_kgDOCBv4Lg"
+                                      },
+                                      {
+                                        "k": "organizations_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/orgs"
+                                      },
+                                      {
+                                        "k": "received_events_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/received_events"
+                                      },
+                                      {
+                                        "k": "repos_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/repos"
+                                      },
+                                      {
+                                        "k": "site_admin",
+                                        "v": false
+                                      },
+                                      {
+                                        "k": "starred_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/starred{/owner}{/repo}"
+                                      },
+                                      {
+                                        "k": "subscriptions_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/subscriptions"
+                                      },
+                                      {
+                                        "k": "type",
+                                        "v": "Organization"
+                                      },
+                                      {
+                                        "k": "url",
+                                        "v": "https://api.github.com/users/tannerpresscorp"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "k": "private",
+                                  "v": false
+                                },
+                                {
+                                  "k": "pulls_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/pulls{/number}"
+                                },
+                                {
+                                  "k": "pushed_at",
+                                  "v": "2023-12-14T01:28:56Z"
+                                },
+                                {
+                                  "k": "releases_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/releases{/id}"
+                                },
+                                {
+                                  "k": "size",
+                                  "v": 86203.0
+                                },
+                                {
+                                  "k": "squash_merge_commit_message",
+                                  "v": "COMMIT_MESSAGES"
+                                },
+                                {
+                                  "k": "squash_merge_commit_title",
+                                  "v": "COMMIT_OR_PR_TITLE"
+                                },
+                                {
+                                  "k": "ssh_url",
+                                  "v": "git@github.com:tannerpresscorp/PowerShell.git"
+                                },
+                                {
+                                  "k": "stargazers_count",
+                                  "v": 0.0
+                                },
+                                {
+                                  "k": "stargazers_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/stargazers"
+                                },
+                                {
+                                  "k": "statuses_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/statuses/{sha}"
+                                },
+                                {
+                                  "k": "subscribers_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/subscribers"
+                                },
+                                {
+                                  "k": "subscription_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/subscription"
+                                },
+                                {
+                                  "k": "svn_url",
+                                  "v": "https://github.com/tannerpresscorp/PowerShell"
+                                },
+                                {
+                                  "k": "tags_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/tags"
+                                },
+                                {
+                                  "k": "teams_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/teams"
+                                },
+                                {
+                                  "k": "topics",
+                                  "v": {
+                                    "t": 1
+                                  }
+                                },
+                                {
+                                  "k": "trees_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/trees{/sha}"
+                                },
+                                {
+                                  "k": "updated_at",
+                                  "v": "2023-12-12T06:51:16Z"
+                                },
+                                {
+                                  "k": "url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell"
+                                },
+                                {
+                                  "k": "use_squash_pr_title_as_default",
+                                  "v": false
+                                },
+                                {
+                                  "k": "visibility",
+                                  "v": "public"
+                                },
+                                {
+                                  "k": "watchers",
+                                  "v": 0.0
+                                },
+                                {
+                                  "k": "watchers_count",
+                                  "v": 0.0
+                                },
+                                {
+                                  "k": "web_commit_signoff_required",
+                                  "v": true
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "k": "sha",
+                            "v": "89d4b0a3218e6007e35c755bb299e5ec8819128e"
+                          },
+                          {
+                            "k": "user",
+                            "v": {
+                              "t": 2,
+                              "d": [
+                                {
+                                  "k": "avatar_url",
+                                  "v": "https://avatars.githubusercontent.com/u/136050734?v=4"
+                                },
+                                {
+                                  "k": "events_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/events{/privacy}"
+                                },
+                                {
+                                  "k": "followers_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/followers"
+                                },
+                                {
+                                  "k": "following_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/following{/other_user}"
+                                },
+                                {
+                                  "k": "gists_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/gists{/gist_id}"
+                                },
+                                {
+                                  "k": "gravatar_id",
+                                  "v": ""
+                                },
+                                {
+                                  "k": "html_url",
+                                  "v": "https://github.com/tannerpresscorp"
+                                },
+                                {
+                                  "k": "id",
+                                  "v": 136050734.0
+                                },
+                                {
+                                  "k": "login",
+                                  "v": "tannerpresscorp"
+                                },
+                                {
+                                  "k": "node_id",
+                                  "v": "O_kgDOCBv4Lg"
+                                },
+                                {
+                                  "k": "organizations_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/orgs"
+                                },
+                                {
+                                  "k": "received_events_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/received_events"
+                                },
+                                {
+                                  "k": "repos_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/repos"
+                                },
+                                {
+                                  "k": "site_admin",
+                                  "v": false
+                                },
+                                {
+                                  "k": "starred_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/starred{/owner}{/repo}"
+                                },
+                                {
+                                  "k": "subscriptions_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/subscriptions"
+                                },
+                                {
+                                  "k": "type",
+                                  "v": "Organization"
+                                },
+                                {
+                                  "k": "url",
+                                  "v": "https://api.github.com/users/tannerpresscorp"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "body",
+                      "v": "Bumps [github/codeql-action](https://github.com/github/codeql-action) from 2 to 3.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/github/codeql-action/releases\">github/codeql-action's releases</a>.</em></p>\n<blockquote>\n<h2>CodeQL Bundle v2.15.4</h2>\n<p>Bundles CodeQL CLI v2.15.4</p>\n<ul>\n<li>(<a href=\"https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql-cli-binaries/releases/tag/v2.15.4\">release</a>)</li>\n</ul>\n<p>Includes the following CodeQL language packs from <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4\"><code>github/codeql@codeql-cli/v2.15.4</code></a>:</p>\n<ul>\n<li><code>codeql/cpp-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/cpp/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/cpp/ql/src\">source</a>)</li>\n<li><code>codeql/cpp-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/cpp/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/cpp/ql/lib\">source</a>)</li>\n<li><code>codeql/csharp-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/csharp/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/csharp/ql/src\">source</a>)</li>\n<li><code>codeql/csharp-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/csharp/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/csharp/ql/lib\">source</a>)</li>\n<li><code>codeql/go-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/go/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/go/ql/src\">source</a>)</li>\n<li><code>codeql/go-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/go/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/go/ql/lib\">source</a>)</li>\n<li><code>codeql/java-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/java/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/java/ql/src\">source</a>)</li>\n<li><code>codeql/java-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/java/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/java/ql/lib\">source</a>)</li>\n<li><code>codeql/javascript-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/javascript/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/javascript/ql/src\">source</a>)</li>\n<li><code>codeql/javascript-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/javascript/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/javascript/ql/lib\">source</a>)</li>\n<li><code>codeql/python-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/python/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/python/ql/src\">source</a>)</li>\n<li><code>codeql/python-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/python/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/python/ql/lib\">source</a>)</li>\n<li><code>codeql/ruby-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/ruby/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/ruby/ql/src\">source</a>)</li>\n<li><code>codeql/ruby-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/ruby/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/ruby/ql/lib\">source</a>)</li>\n<li><code>codeql/swift-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/swift/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/swift/ql/src\">source</a>)</li>\n<li><code>codeql/swift-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/swift/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.4/swift/ql/lib\">source</a>)</li>\n</ul>\n<h2>CodeQL Bundle</h2>\n<p>Bundles CodeQL CLI v2.15.3</p>\n<ul>\n<li>(<a href=\"https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql-cli-binaries/releases/tag/v2.15.3\">release</a>)</li>\n</ul>\n<p>Includes the following CodeQL language packs from <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3\"><code>github/codeql@codeql-cli/v2.15.3</code></a>:</p>\n<ul>\n<li><code>codeql/cpp-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/cpp/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/cpp/ql/src\">source</a>)</li>\n<li><code>codeql/cpp-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/cpp/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/cpp/ql/lib\">source</a>)</li>\n<li><code>codeql/csharp-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/csharp/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/csharp/ql/src\">source</a>)</li>\n<li><code>codeql/csharp-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/csharp/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/csharp/ql/lib\">source</a>)</li>\n<li><code>codeql/go-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/go/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/go/ql/src\">source</a>)</li>\n<li><code>codeql/go-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/go/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/go/ql/lib\">source</a>)</li>\n<li><code>codeql/java-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/java/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/java/ql/src\">source</a>)</li>\n<li><code>codeql/java-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/java/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/java/ql/lib\">source</a>)</li>\n<li><code>codeql/javascript-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/javascript/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/javascript/ql/src\">source</a>)</li>\n<li><code>codeql/javascript-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/javascript/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/javascript/ql/lib\">source</a>)</li>\n<li><code>codeql/python-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/python/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/python/ql/src\">source</a>)</li>\n<li><code>codeql/python-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/python/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/python/ql/lib\">source</a>)</li>\n<li><code>codeql/ruby-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/ruby/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/ruby/ql/src\">source</a>)</li>\n<li><code>codeql/ruby-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/ruby/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/ruby/ql/lib\">source</a>)</li>\n<li><code>codeql/swift-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/swift/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/swift/ql/src\">source</a>)</li>\n<li><code>codeql/swift-all</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/swift/ql/lib/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.3/swift/ql/lib\">source</a>)</li>\n</ul>\n<h2>CodeQL Bundle</h2>\n<p>Bundles CodeQL CLI v2.15.2</p>\n<ul>\n<li>(<a href=\"https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql-cli-binaries/releases/tag/v2.15.2\">release</a>)</li>\n</ul>\n<p>Includes the following CodeQL language packs from <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.2\"><code>github/codeql@codeql-cli/v2.15.2</code></a>:</p>\n<ul>\n<li><code>codeql/cpp-queries</code> (<a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.2/cpp/ql/src/CHANGELOG.md\">changelog</a>, <a href=\"https://github.com/github/codeql/tree/codeql-cli/v2.15.2/cpp/ql/src\">source</a>)</li>\n</ul>\n<!-- raw HTML omitted -->\n</blockquote>\n<p>... (truncated)</p>\n</details>\n<details>\n<summary>Changelog</summary>\n<p><em>Sourced from <a href=\"https://github.com/github/codeql-action/blob/main/CHANGELOG.md\">github/codeql-action's changelog</a>.</em></p>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/github/codeql-action/commit/3a9f6a89e06fb331ce22481637d19617501a5b7f\"><code>3a9f6a8</code></a> update javascript files</li>\n<li><a href=\"https://github.com/github/codeql-action/commit/cc4fead714532424ab15b501a01d18c7f34d17e2\"><code>cc4fead</code></a> update version in various hardcoded locations</li>\n<li><a href=\"https://github.com/github/codeql-action/commit/183559cea87c163bb01e99e0a15fd5500b23307f\"><code>183559c</code></a> Merge branch 'main' into update-bundle/codeql-bundle-v2.15.4</li>\n<li><a href=\"https://github.com/github/codeql-action/commit/5b52b36d41451ee775917788e3bf225d7c1ceab3\"><code>5b52b36</code></a> reintroduce PR check that confirm action can be still be compiled on node16</li>\n<li><a href=\"https://github.com/github/codeql-action/commit/5b19bef41e08b00f3d8f48219f46b1866a4f940d\"><code>5b19bef</code></a> change to node20 for all actions</li>\n<li><a href=\"https://github.com/github/codeql-action/commit/f2d0c2e7ae58b70f81b81bf4c8b5c7a81fb2a5d6\"><code>f2d0c2e</code></a> upgrade node type definitions</li>\n<li><a href=\"https://github.com/github/codeql-action/commit/d651fbc494fab13836ab76ffcfc8ce08c7c98d78\"><code>d651fbc</code></a> change to node20 for all actions</li>\n<li><a href=\"https://github.com/github/codeql-action/commit/382a50a0284c0de445104889a9d6003acb4b3c1d\"><code>382a50a</code></a> Merge pull request <a href=\"https://redirect.github.com/github/codeql-action/issues/2021\">#2021</a> from github/mergeback/v2.22.9-to-main-c0d1daa7</li>\n<li><a href=\"https://github.com/github/codeql-action/commit/458b4226ad8e38f90ff6a4ad1e18ab2593e7e3dc\"><code>458b422</code></a> Update checked-in dependencies</li>\n<li><a href=\"https://github.com/github/codeql-action/commit/5e0f9dbc48f564b68392e465dcdacd74eab63e25\"><code>5e0f9db</code></a> Update changelog and version after v2.22.9</li>\n<li>See full diff in <a href=\"https://github.com/github/codeql-action/compare/v2...v3\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github/codeql-action&package-manager=github_actions&previous-version=2&new-version=3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>"
+                    },
+                    {
+                      "k": "changed_files",
+                      "v": 1.0
+                    },
+                    {
+                      "k": "closed_at",
+                      "v": null
+                    },
+                    {
+                      "k": "comments",
+                      "v": 1.0
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues/4/comments"
+                    },
+                    {
+                      "k": "commits",
+                      "v": 1.0
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/pulls/4/commits"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": "2023-12-14T01:28:55Z"
+                    },
+                    {
+                      "k": "deletions",
+                      "v": 2.0
+                    },
+                    {
+                      "k": "diff_url",
+                      "v": "https://github.com/tannerpresscorp/PowerShell/pull/4.diff"
+                    },
+                    {
+                      "k": "draft",
+                      "v": false
+                    },
+                    {
+                      "k": "head",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "label",
+                            "v": "tannerpresscorp:dependabot/github_actions/github/codeql-action-3"
+                          },
+                          {
+                            "k": "ref",
+                            "v": "dependabot/github_actions/github/codeql-action-3"
+                          },
+                          {
+                            "k": "repo",
+                            "v": {
+                              "t": 2,
+                              "d": [
+                                {
+                                  "k": "allow_auto_merge",
+                                  "v": false
+                                },
+                                {
+                                  "k": "allow_forking",
+                                  "v": true
+                                },
+                                {
+                                  "k": "allow_merge_commit",
+                                  "v": true
+                                },
+                                {
+                                  "k": "allow_rebase_merge",
+                                  "v": true
+                                },
+                                {
+                                  "k": "allow_squash_merge",
+                                  "v": true
+                                },
+                                {
+                                  "k": "allow_update_branch",
+                                  "v": false
+                                },
+                                {
+                                  "k": "archive_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/{archive_format}{/ref}"
+                                },
+                                {
+                                  "k": "archived",
+                                  "v": false
+                                },
+                                {
+                                  "k": "assignees_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/assignees{/user}"
+                                },
+                                {
+                                  "k": "blobs_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/blobs{/sha}"
+                                },
+                                {
+                                  "k": "branches_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/branches{/branch}"
+                                },
+                                {
+                                  "k": "clone_url",
+                                  "v": "https://github.com/tannerpresscorp/PowerShell.git"
+                                },
+                                {
+                                  "k": "collaborators_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/collaborators{/collaborator}"
+                                },
+                                {
+                                  "k": "comments_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/comments{/number}"
+                                },
+                                {
+                                  "k": "commits_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/commits{/sha}"
+                                },
+                                {
+                                  "k": "compare_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/compare/{base}...{head}"
+                                },
+                                {
+                                  "k": "contents_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/contents/{+path}"
+                                },
+                                {
+                                  "k": "contributors_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/contributors"
+                                },
+                                {
+                                  "k": "created_at",
+                                  "v": "2023-12-12T06:19:29Z"
+                                },
+                                {
+                                  "k": "default_branch",
+                                  "v": "master"
+                                },
+                                {
+                                  "k": "delete_branch_on_merge",
+                                  "v": false
+                                },
+                                {
+                                  "k": "deployments_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/deployments"
+                                },
+                                {
+                                  "k": "description",
+                                  "v": "PowerShell for every system!"
+                                },
+                                {
+                                  "k": "disabled",
+                                  "v": false
+                                },
+                                {
+                                  "k": "downloads_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/downloads"
+                                },
+                                {
+                                  "k": "events_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/events"
+                                },
+                                {
+                                  "k": "fork",
+                                  "v": true
+                                },
+                                {
+                                  "k": "forks",
+                                  "v": 0.0
+                                },
+                                {
+                                  "k": "forks_count",
+                                  "v": 0.0
+                                },
+                                {
+                                  "k": "forks_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/forks"
+                                },
+                                {
+                                  "k": "full_name",
+                                  "v": "tannerpresscorp/PowerShell"
+                                },
+                                {
+                                  "k": "git_commits_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/commits{/sha}"
+                                },
+                                {
+                                  "k": "git_refs_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/refs{/sha}"
+                                },
+                                {
+                                  "k": "git_tags_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/tags{/sha}"
+                                },
+                                {
+                                  "k": "git_url",
+                                  "v": "git://github.com/tannerpresscorp/PowerShell.git"
+                                },
+                                {
+                                  "k": "has_discussions",
+                                  "v": false
+                                },
+                                {
+                                  "k": "has_downloads",
+                                  "v": true
+                                },
+                                {
+                                  "k": "has_issues",
+                                  "v": false
+                                },
+                                {
+                                  "k": "has_pages",
+                                  "v": false
+                                },
+                                {
+                                  "k": "has_projects",
+                                  "v": true
+                                },
+                                {
+                                  "k": "has_wiki",
+                                  "v": false
+                                },
+                                {
+                                  "k": "homepage",
+                                  "v": "https://microsoft.com/PowerShell"
+                                },
+                                {
+                                  "k": "hooks_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/hooks"
+                                },
+                                {
+                                  "k": "html_url",
+                                  "v": "https://github.com/tannerpresscorp/PowerShell"
+                                },
+                                {
+                                  "k": "id",
+                                  "v": 730536514.0
+                                },
+                                {
+                                  "k": "is_template",
+                                  "v": false
+                                },
+                                {
+                                  "k": "issue_comment_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues/comments{/number}"
+                                },
+                                {
+                                  "k": "issue_events_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues/events{/number}"
+                                },
+                                {
+                                  "k": "issues_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues{/number}"
+                                },
+                                {
+                                  "k": "keys_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/keys{/key_id}"
+                                },
+                                {
+                                  "k": "labels_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/labels{/name}"
+                                },
+                                {
+                                  "k": "language",
+                                  "v": "C#"
+                                },
+                                {
+                                  "k": "languages_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/languages"
+                                },
+                                {
+                                  "k": "license",
+                                  "v": {
+                                    "t": 2,
+                                    "d": [
+                                      {
+                                        "k": "key",
+                                        "v": "mit"
+                                      },
+                                      {
+                                        "k": "name",
+                                        "v": "MIT License"
+                                      },
+                                      {
+                                        "k": "node_id",
+                                        "v": "MDc6TGljZW5zZTEz"
+                                      },
+                                      {
+                                        "k": "spdx_id",
+                                        "v": "MIT"
+                                      },
+                                      {
+                                        "k": "url",
+                                        "v": "https://api.github.com/licenses/mit"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "k": "merge_commit_message",
+                                  "v": "PR_TITLE"
+                                },
+                                {
+                                  "k": "merge_commit_title",
+                                  "v": "MERGE_MESSAGE"
+                                },
+                                {
+                                  "k": "merges_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/merges"
+                                },
+                                {
+                                  "k": "milestones_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/milestones{/number}"
+                                },
+                                {
+                                  "k": "mirror_url",
+                                  "v": null
+                                },
+                                {
+                                  "k": "name",
+                                  "v": "PowerShell"
+                                },
+                                {
+                                  "k": "node_id",
+                                  "v": "R_kgDOK4saQg"
+                                },
+                                {
+                                  "k": "notifications_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/notifications{?since,all,participating}"
+                                },
+                                {
+                                  "k": "open_issues",
+                                  "v": 2.0
+                                },
+                                {
+                                  "k": "open_issues_count",
+                                  "v": 2.0
+                                },
+                                {
+                                  "k": "owner",
+                                  "v": {
+                                    "t": 2,
+                                    "d": [
+                                      {
+                                        "k": "avatar_url",
+                                        "v": "https://avatars.githubusercontent.com/u/136050734?v=4"
+                                      },
+                                      {
+                                        "k": "events_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/events{/privacy}"
+                                      },
+                                      {
+                                        "k": "followers_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/followers"
+                                      },
+                                      {
+                                        "k": "following_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/following{/other_user}"
+                                      },
+                                      {
+                                        "k": "gists_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/gists{/gist_id}"
+                                      },
+                                      {
+                                        "k": "gravatar_id",
+                                        "v": ""
+                                      },
+                                      {
+                                        "k": "html_url",
+                                        "v": "https://github.com/tannerpresscorp"
+                                      },
+                                      {
+                                        "k": "id",
+                                        "v": 136050734.0
+                                      },
+                                      {
+                                        "k": "login",
+                                        "v": "tannerpresscorp"
+                                      },
+                                      {
+                                        "k": "node_id",
+                                        "v": "O_kgDOCBv4Lg"
+                                      },
+                                      {
+                                        "k": "organizations_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/orgs"
+                                      },
+                                      {
+                                        "k": "received_events_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/received_events"
+                                      },
+                                      {
+                                        "k": "repos_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/repos"
+                                      },
+                                      {
+                                        "k": "site_admin",
+                                        "v": false
+                                      },
+                                      {
+                                        "k": "starred_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/starred{/owner}{/repo}"
+                                      },
+                                      {
+                                        "k": "subscriptions_url",
+                                        "v": "https://api.github.com/users/tannerpresscorp/subscriptions"
+                                      },
+                                      {
+                                        "k": "type",
+                                        "v": "Organization"
+                                      },
+                                      {
+                                        "k": "url",
+                                        "v": "https://api.github.com/users/tannerpresscorp"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "k": "private",
+                                  "v": false
+                                },
+                                {
+                                  "k": "pulls_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/pulls{/number}"
+                                },
+                                {
+                                  "k": "pushed_at",
+                                  "v": "2023-12-14T01:28:56Z"
+                                },
+                                {
+                                  "k": "releases_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/releases{/id}"
+                                },
+                                {
+                                  "k": "size",
+                                  "v": 86203.0
+                                },
+                                {
+                                  "k": "squash_merge_commit_message",
+                                  "v": "COMMIT_MESSAGES"
+                                },
+                                {
+                                  "k": "squash_merge_commit_title",
+                                  "v": "COMMIT_OR_PR_TITLE"
+                                },
+                                {
+                                  "k": "ssh_url",
+                                  "v": "git@github.com:tannerpresscorp/PowerShell.git"
+                                },
+                                {
+                                  "k": "stargazers_count",
+                                  "v": 0.0
+                                },
+                                {
+                                  "k": "stargazers_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/stargazers"
+                                },
+                                {
+                                  "k": "statuses_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/statuses/{sha}"
+                                },
+                                {
+                                  "k": "subscribers_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/subscribers"
+                                },
+                                {
+                                  "k": "subscription_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/subscription"
+                                },
+                                {
+                                  "k": "svn_url",
+                                  "v": "https://github.com/tannerpresscorp/PowerShell"
+                                },
+                                {
+                                  "k": "tags_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/tags"
+                                },
+                                {
+                                  "k": "teams_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/teams"
+                                },
+                                {
+                                  "k": "topics",
+                                  "v": {
+                                    "t": 1
+                                  }
+                                },
+                                {
+                                  "k": "trees_url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/trees{/sha}"
+                                },
+                                {
+                                  "k": "updated_at",
+                                  "v": "2023-12-12T06:51:16Z"
+                                },
+                                {
+                                  "k": "url",
+                                  "v": "https://api.github.com/repos/tannerpresscorp/PowerShell"
+                                },
+                                {
+                                  "k": "use_squash_pr_title_as_default",
+                                  "v": false
+                                },
+                                {
+                                  "k": "visibility",
+                                  "v": "public"
+                                },
+                                {
+                                  "k": "watchers",
+                                  "v": 0.0
+                                },
+                                {
+                                  "k": "watchers_count",
+                                  "v": 0.0
+                                },
+                                {
+                                  "k": "web_commit_signoff_required",
+                                  "v": true
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "k": "sha",
+                            "v": "24f2dca789dd159531238ea4bc09067ece2e858d"
+                          },
+                          {
+                            "k": "user",
+                            "v": {
+                              "t": 2,
+                              "d": [
+                                {
+                                  "k": "avatar_url",
+                                  "v": "https://avatars.githubusercontent.com/u/136050734?v=4"
+                                },
+                                {
+                                  "k": "events_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/events{/privacy}"
+                                },
+                                {
+                                  "k": "followers_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/followers"
+                                },
+                                {
+                                  "k": "following_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/following{/other_user}"
+                                },
+                                {
+                                  "k": "gists_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/gists{/gist_id}"
+                                },
+                                {
+                                  "k": "gravatar_id",
+                                  "v": ""
+                                },
+                                {
+                                  "k": "html_url",
+                                  "v": "https://github.com/tannerpresscorp"
+                                },
+                                {
+                                  "k": "id",
+                                  "v": 136050734.0
+                                },
+                                {
+                                  "k": "login",
+                                  "v": "tannerpresscorp"
+                                },
+                                {
+                                  "k": "node_id",
+                                  "v": "O_kgDOCBv4Lg"
+                                },
+                                {
+                                  "k": "organizations_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/orgs"
+                                },
+                                {
+                                  "k": "received_events_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/received_events"
+                                },
+                                {
+                                  "k": "repos_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/repos"
+                                },
+                                {
+                                  "k": "site_admin",
+                                  "v": false
+                                },
+                                {
+                                  "k": "starred_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/starred{/owner}{/repo}"
+                                },
+                                {
+                                  "k": "subscriptions_url",
+                                  "v": "https://api.github.com/users/tannerpresscorp/subscriptions"
+                                },
+                                {
+                                  "k": "type",
+                                  "v": "Organization"
+                                },
+                                {
+                                  "k": "url",
+                                  "v": "https://api.github.com/users/tannerpresscorp"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/tannerpresscorp/PowerShell/pull/4"
+                    },
+                    {
+                      "k": "id",
+                      "v": 1643362904.0
+                    },
+                    {
+                      "k": "issue_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues/4"
+                    },
+                    {
+                      "k": "labels",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "locked",
+                      "v": false
+                    },
+                    {
+                      "k": "maintainer_can_modify",
+                      "v": false
+                    },
+                    {
+                      "k": "merge_commit_sha",
+                      "v": null
+                    },
+                    {
+                      "k": "mergeable",
+                      "v": null
+                    },
+                    {
+                      "k": "mergeable_state",
+                      "v": "unknown"
+                    },
+                    {
+                      "k": "merged",
+                      "v": false
+                    },
+                    {
+                      "k": "merged_at",
+                      "v": null
+                    },
+                    {
+                      "k": "merged_by",
+                      "v": null
+                    },
+                    {
+                      "k": "milestone",
+                      "v": null
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "PR_kwDOK4saQs5h87pY"
+                    },
+                    {
+                      "k": "number",
+                      "v": 4.0
+                    },
+                    {
+                      "k": "patch_url",
+                      "v": "https://github.com/tannerpresscorp/PowerShell/pull/4.patch"
+                    },
+                    {
+                      "k": "rebaseable",
+                      "v": null
+                    },
+                    {
+                      "k": "requested_reviewers",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "requested_teams",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "review_comment_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/pulls/comments{/number}"
+                    },
+                    {
+                      "k": "review_comments",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "review_comments_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/pulls/4/comments"
+                    },
+                    {
+                      "k": "state",
+                      "v": "open"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/statuses/24f2dca789dd159531238ea4bc09067ece2e858d"
+                    },
+                    {
+                      "k": "title",
+                      "v": "Bump github/codeql-action from 2 to 3"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2023-12-14T01:28:55Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/pulls/4"
+                    },
+                    {
+                      "k": "user",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/in/29110?v=4"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/dependabot%5Bbot%5D/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/apps/dependabot"
+                          },
+                          {
+                            "k": "id",
+                            "v": 49699333.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "dependabot[bot]"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDM6Qm90NDk2OTkzMzM="
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/dependabot%5Bbot%5D/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/dependabot%5Bbot%5D/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/dependabot%5Bbot%5D/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "Bot"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/dependabot%5Bbot%5D"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/tannerpresscorp/PowerShell.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": "2023-12-12T06:19:29Z"
+                    },
+                    {
+                      "k": "custom_properties",
+                      "v": {
+                        "t": 2
+                      }
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": "PowerShell for every system!"
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": true
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "tannerpresscorp/PowerShell"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/tannerpresscorp/PowerShell.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": false
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": false
+                    },
+                    {
+                      "k": "homepage",
+                      "v": "https://microsoft.com/PowerShell"
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/tannerpresscorp/PowerShell"
+                    },
+                    {
+                      "k": "id",
+                      "v": 730536514.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "C#"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "key",
+                            "v": "mit"
+                          },
+                          {
+                            "k": "name",
+                            "v": "MIT License"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDc6TGljZW5zZTEz"
+                          },
+                          {
+                            "k": "spdx_id",
+                            "v": "MIT"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/licenses/mit"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "PowerShell"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOK4saQg"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 2.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 2.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/136050734?v=4"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/tannerpresscorp/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/tannerpresscorp/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/tannerpresscorp/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/tannerpresscorp/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/tannerpresscorp"
+                          },
+                          {
+                            "k": "id",
+                            "v": 136050734.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "tannerpresscorp"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "O_kgDOCBv4Lg"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/tannerpresscorp/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/tannerpresscorp/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/tannerpresscorp/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/tannerpresscorp/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/tannerpresscorp/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "Organization"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/tannerpresscorp"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": "2023-12-14T01:28:56Z"
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 86203.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:tannerpresscorp/PowerShell.git"
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/tannerpresscorp/PowerShell"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2023-12-12T06:51:16Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/repos/tannerpresscorp/PowerShell"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": true
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/in/29110?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/dependabot%5Bbot%5D/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/apps/dependabot"
+                    },
+                    {
+                      "k": "id",
+                      "v": 49699333.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "dependabot[bot]"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDM6Qm90NDk2OTkzMzM="
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/dependabot%5Bbot%5D/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/dependabot%5Bbot%5D/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/dependabot%5Bbot%5D/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "Bot"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/dependabot%5Bbot%5D"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "4/merge"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Dependabot"
+        },
+        {
+          "k": "workflow_ref",
+          "v": "tannerpresscorp/PowerShell/.github/workflows/docker-image.yml@refs/pull/4/merge"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "74541401a8320ba7316206084afaa097138b13fc"
+        }
+      ]
+    },
+    "run-feature-flags": {
+      "t": 2,
+      "d": [
+        {
+          "k": "actions_stream_logs_via_results_service",
+          "v": false
+        },
+        {
+          "k": "actions_use_results_service",
+          "v": true
+        }
+      ]
+    },
+    "partialrerun": false,
+    "needs": {
+      "t": 2
+    },
+    "vars": null,
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    },
+    "EndpointsOverride": null
+  }
+}
+[2023-12-14 01:29:12Z INFO JobRunner] Job ID ca395085-040a-526b-2ce8-bdc85f692774
+[2023-12-14 01:29:12Z INFO JobRunner] Creating job server with URL: https://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/
+[2023-12-14 01:29:12Z INFO ConfigurationStore] currentAssemblyLocation: C:\PowerShell\actions-runner\bin\Runner.Worker.dll
+[2023-12-14 01:29:12Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:12Z INFO ConfigurationStore] binPath: C:\PowerShell\actions-runner\bin
+[2023-12-14 01:29:12Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:12Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:12Z INFO ConfigurationStore] RootFolder: C:\PowerShell\actions-runner
+[2023-12-14 01:29:12Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:12Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:12Z INFO HostContext] Well known config file 'Runner': 'C:\PowerShell\actions-runner\.runner'
+[2023-12-14 01:29:12Z INFO ConfigurationStore] ConfigFilePath: C:\PowerShell\actions-runner\.runner
+[2023-12-14 01:29:12Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:12Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:12Z INFO HostContext] Well known config file 'Credentials': 'C:\PowerShell\actions-runner\.credentials'
+[2023-12-14 01:29:12Z INFO ConfigurationStore] CredFilePath: C:\PowerShell\actions-runner\.credentials
+[2023-12-14 01:29:12Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:12Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:12Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\PowerShell\actions-runner\.credentials_migrated'
+[2023-12-14 01:29:12Z INFO ConfigurationStore] MigratedCredFilePath: C:\PowerShell\actions-runner\.credentials_migrated
+[2023-12-14 01:29:12Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:12Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:12Z INFO HostContext] Well known config file 'Service': 'C:\PowerShell\actions-runner\.service'
+[2023-12-14 01:29:12Z INFO ConfigurationStore] ServiceConfigFilePath: C:\PowerShell\actions-runner\.service
+[2023-12-14 01:29:12Z INFO ConfigurationStore] Read setting file: 315 chars
+[2023-12-14 01:29:13Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-12-14 01:29:13Z INFO Worker] Listening for cancel message from the channel.
+[2023-12-14 01:29:13Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2023-12-14 01:29:15Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-12-14 01:29:15Z INFO JobServer] Creating websocket client ...wss://pipelinesghubeus25.actions.githubusercontent.com/iYYAtSsEqUweqpQfm0p1oER9WBE6Vr5KUnINGthomCyY3bNhMO/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/c21e4f1b-f26b-4a26-80c7-d8b2fab965ba/timelines/c21e4f1b-f26b-4a26-80c7-d8b2fab965ba/records/ca395085-040a-526b-2ce8-bdc85f692774/feedstream?api-version=6.0-preview
+[2023-12-14 01:29:15Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2023-12-14 01:29:15Z INFO JobServerQueue] Initializing results client
+[2023-12-14 01:29:15Z INFO JobServerQueue] Start process web console line queue.
+[2023-12-14 01:29:15Z INFO JobServerQueue] Start process file upload queue.
+[2023-12-14 01:29:15Z INFO JobServerQueue] Start results file upload queue.
+[2023-12-14 01:29:15Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-12-14 01:29:15Z INFO JobServerQueue] Start process timeline update queue.
+[2023-12-14 01:29:15Z INFO ExecutionContext] Initialize GitHub context
+[2023-12-14 01:29:15Z INFO ExecutionContext] Initialize Env context
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:29:15Z INFO JobRunner] Starting the job execution context.
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:15Z INFO JobRunner] Validating directory permissions for: 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Tools': 'C:\PowerShell\actions-runner\_self-hosted\_tool'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Temp': 'C:\PowerShell\actions-runner\_self-hosted\_temp'
+[2023-12-14 01:29:15Z INFO JobRunner] Getting job extension.
+[2023-12-14 01:29:15Z INFO JobRunner] Initialize job. Getting all job steps.
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known config file 'Credentials': 'C:\PowerShell\actions-runner\.credentials'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known config file 'SetupInfo': 'C:\PowerShell\actions-runner\.setup_info'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:15Z INFO PipelineDirectoryManager] Loading tracking config if exists: C:\PowerShell\actions-runner\_self-hosted\_PipelineMapping\tannerpresscorp/PowerShell\PipelineFolder.json
+[2023-12-14 01:29:15Z INFO PipelineDirectoryManager] Updating job run properties.
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:15Z INFO JobExtension] Downloading actions
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:15Z INFO HostContext] Well known directory 'Actions': 'C:\PowerShell\actions-runner\_self-hosted\_actions'
+[2023-12-14 01:29:17Z INFO JobServer] Successfully started websocket client.
+[2023-12-14 01:29:17Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'da5bf0dc-4058-4fc2-a80b-27e57611e789', success rate: 1/1.
+[2023-12-14 01:29:17Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'da5bf0dc-4058-4fc2-a80b-27e57611e789', success rate: 1/1.
+[2023-12-14 01:29:18Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:18Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:18Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:18Z INFO HostContext] Well known directory 'Actions': 'C:\PowerShell\actions-runner\_self-hosted\_actions'
+[2023-12-14 01:29:18Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:18Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:18Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:18Z INFO HostContext] Well known directory 'Actions': 'C:\PowerShell\actions-runner\_self-hosted\_actions'
+[2023-12-14 01:29:18Z INFO ActionManager] Save archive 'https://api.github.com/repos/actions/checkout/zipball/f43a0e5ff2bd294095638e18286ca9a3d1956744' into C:\PowerShell\actions-runner\_self-hosted\_actions\_temp_a4c28fd5-bb75-4184-90d9-2cd557e4e431\1f6ae045-fbb1-4f40-9105-09b4ef6098c8.zip.
+[2023-12-14 01:29:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'da5bf0dc-4058-4fc2-a80b-27e57611e789', success rate: 1/1.
+[2023-12-14 01:29:19Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2023-12-14 01:29:45Z INFO ActionManager] Request URL: https://api.github.com/repos/actions/checkout/zipball/f43a0e5ff2bd294095638e18286ca9a3d1956744 X-GitHub-Request-Id: C3DF:95FB:1DBFD9:2B9998:657A5A72 Http Status: OK
+[2023-12-14 01:29:46Z INFO ActionManager] Finished getting action repository.
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Actions': 'C:\PowerShell\actions-runner\_self-hosted\_actions'
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "boolean-steps-context",
+  "step-env",
+  "step-if",
+  "step-with"
+]
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Actions': 'C:\PowerShell\actions-runner\_self-hosted\_actions'
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-12-14 01:29:46Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Actions': 'C:\PowerShell\actions-runner\_self-hosted\_actions'
+[2023-12-14 01:29:46Z INFO ActionManager] Load action that reference repository from 'C:\PowerShell\actions-runner\_self-hosted\_actions\actions\checkout\v3'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Actions': 'C:\PowerShell\actions-runner\_self-hosted\_actions'
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-12-14 01:29:46Z INFO ActionManager] Action pre node.js file: N/A.
+[2023-12-14 01:29:46Z INFO ActionManager] Action node.js file: dist/index.js.
+[2023-12-14 01:29:46Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2023-12-14 01:29:46Z INFO JobExtension] Adding .
+[2023-12-14 01:29:46Z INFO JobExtension] Adding .
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:29:46Z INFO JobExtension] Total accessible running process: 296.
+[2023-12-14 01:29:46Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'da5bf0dc-4058-4fc2-a80b-27e57611e789', success rate: 1/1.
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:46Z INFO JobExtension] Start checking server connectivity.
+[2023-12-14 01:29:46Z INFO JobExtension] Check server connectivity for https://acghubeus0.actions.githubusercontent.com/_apis/health.
+[2023-12-14 01:29:46Z INFO JobExtension] Check server connectivity for https://results-receiver.actions.githubusercontent.com/health.
+[2023-12-14 01:29:46Z INFO JobExtension] Check server connectivity for https://actions-results-receiver-production.githubapp.com/health.
+[2023-12-14 01:29:46Z INFO JobExtension] Check server connectivity for https://pipelinesghubeus25.actions.githubusercontent.com/_apis/health.
+[2023-12-14 01:29:46Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "da5bf0dc-4058-4fc2-a80b-27e57611e789",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 32,
+  "startTime": "2023-12-14T01:29:15.61161Z",
+  "finishTime": "2023-12-14T01:29:46.7366427Z"
+}.
+[2023-12-14 01:29:46Z INFO JobRunner] Total job steps: 2.
+[2023-12-14 01:29:46Z INFO JobRunner] Run all job steps.
+[2023-12-14 01:29:46Z INFO StepsRunner] Processing step: DisplayName='Run actions/checkout@v3'
+[2023-12-14 01:29:46Z INFO StepsRunner] Evaluating: success()
+[2023-12-14 01:29:46Z INFO StepsRunner] Result: true
+[2023-12-14 01:29:46Z INFO StepsRunner] Starting the step.
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:46Z INFO StepsRunner] Which: 'chcp'
+[2023-12-14 01:29:46Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper] Starting process:
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper]   Working directory: 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper] Process started with process id 16500, waiting for process exit.
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-12-14 01:29:46Z INFO ProcessInvokerWrapper] Finished process 16500 with exit code 0, and elapsed time 00:00:00.0988637.
+[2023-12-14 01:29:46Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Actions': 'C:\PowerShell\actions-runner\_self-hosted\_actions'
+[2023-12-14 01:29:46Z INFO ActionManager] Load action that reference repository from 'C:\PowerShell\actions-runner\_self-hosted\_actions\actions\checkout\v3'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Actions': 'C:\PowerShell\actions-runner\_self-hosted\_actions'
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-12-14 01:29:46Z INFO ActionManager] Action pre node.js file: N/A.
+[2023-12-14 01:29:46Z INFO ActionManager] Action node.js file: dist/index.js.
+[2023-12-14 01:29:46Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2023-12-14 01:29:46Z INFO ExecutionContext] Reserve record order 4 to 6 for post job actions.
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Temp': 'C:\PowerShell\actions-runner\_self-hosted\_temp'
+[2023-12-14 01:29:46Z INFO ExecutionContext] Write event payload to C:\PowerShell\actions-runner\_self-hosted\_temp\_github_workflow\event.json
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:46Z INFO HostContext] Well known directory 'Temp': 'C:\PowerShell\actions-runner\_self-hosted\_temp'
+[2023-12-14 01:29:46Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2023-12-14 01:29:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2023-12-14 01:29:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2023-12-14 01:29:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2023-12-14 01:29:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2023-12-14 01:29:46Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "tannerpresscorp/PowerShell"
+}
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'sparse-checkout': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 60,
+  "col": 14,
+  "lit": ""
+}
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'sparse-checkout-cone-mode': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 64,
+  "col": 14,
+  "lit": "true"
+}
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 67,
+  "col": 14,
+  "lit": "1"
+}
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'fetch-tags': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "false"
+}
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 82,
+  "col": 14,
+  "lit": "false"
+}
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 85,
+  "col": 14,
+  "lit": "true"
+}
+[2023-12-14 01:29:46Z INFO ActionManifestManager] Input 'github-server-url': default value evaluate result: ""
+[2023-12-14 01:29:47Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command set-env
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command set-output
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command save-state
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command add-path
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command warning
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command error
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command notice
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command debug
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command group
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2023-12-14 01:29:47Z INFO ActionCommandManager] Register action command extension for command echo
+[2023-12-14 01:29:47Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:47Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:47Z INFO HostContext] Well known directory 'Externals': 'C:\PowerShell\actions-runner\externals'
+[2023-12-14 01:29:47Z INFO ProcessInvokerWrapper] Starting process:
+[2023-12-14 01:29:47Z INFO ProcessInvokerWrapper]   File name: 'C:\PowerShell\actions-runner\externals\node16\bin\node.exe'
+[2023-12-14 01:29:47Z INFO ProcessInvokerWrapper]   Arguments: '"C:\PowerShell\actions-runner\_self-hosted\_actions\actions\checkout\v3\dist/index.js"'
+[2023-12-14 01:29:47Z INFO ProcessInvokerWrapper]   Working directory: 'C:\PowerShell\actions-runner\_self-hosted\PowerShell\PowerShell'
+[2023-12-14 01:29:47Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-12-14 01:29:47Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2023-12-14 01:29:47Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-12-14 01:29:47Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-12-14 01:29:47Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-12-14 01:29:47Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-12-14 01:29:47Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-12-14 01:29:47Z INFO ProcessInvokerWrapper] Process started with process id 13116, waiting for process exit.
+[2023-12-14 01:29:47Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:29:47Z INFO JobServerQueue] Got a step log file to send to results service.
+[2023-12-14 01:29:47Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\PowerShell\actions-runner\_diag\blocks\c21e4f1b-f26b-4a26-80c7-d8b2fab965ba_da5bf0dc-4058-4fc2-a80b-27e57611e789.1
+[2023-12-14 01:29:48Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:29:48Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2023-12-14 01:29:48Z INFO AddMaskCommandExtension] Add new secret mask with length of 76
+[2023-12-14 01:29:48Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:29:48Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:29:50Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2023-12-14 01:29:50Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:29:51Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:29:52Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:29:53Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:29:54Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:29:56Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:29:56Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:29:56Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:29:58Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:29:58Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:29:58Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper] Finished process 13116 with exit code 1, and elapsed time 00:00:13.6635402.
+[2023-12-14 01:30:00Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2023-12-14 01:30:00Z INFO CreateStepSummaryCommand] Step Summary file (C:\PowerShell\actions-runner\_self-hosted\_temp\_runner_file_commands\step_summary_376a0717-fff8-4fb0-b418-a2925e3c3ffa) is empty; skipping attachment upload
+[2023-12-14 01:30:00Z INFO StepsRunner] Step result: Failed
+[2023-12-14 01:30:00Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v3",
+  "type": "node16",
+  "stage": "Main",
+  "stepId": "a60052d4-79a0-5821-3eeb-84adb9872c5b",
+  "stepContextName": "__actions_checkout",
+  "hasPreStep": false,
+  "hasPostStep": true,
+  "result": "failed",
+  "errorMessages": [],
+  "executionTimeInSeconds": 14,
+  "startTime": "2023-12-14T01:29:46.7785556Z",
+  "finishTime": "2023-12-14T01:30:00.7302892Z"
+}.
+[2023-12-14 01:30:00Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2023-12-14 01:30:00Z INFO StepsRunner] Current state: job state = 'Failed'
+[2023-12-14 01:30:00Z INFO StepsRunner] Processing step: DisplayName='Build the Docker image'
+[2023-12-14 01:30:00Z INFO StepsRunner] Evaluating: success()
+[2023-12-14 01:30:00Z INFO StepsRunner] Result: false
+[2023-12-14 01:30:00Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2023-12-14 01:30:00Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2023-12-14 01:30:00Z INFO StepsRunner] Current state: job state = 'Failed'
+[2023-12-14 01:30:00Z INFO StepsRunner] Processing step: DisplayName='Post Run actions/checkout@v3'
+[2023-12-14 01:30:00Z INFO StepsRunner] Evaluating: always()
+[2023-12-14 01:30:00Z INFO StepsRunner] Result: true
+[2023-12-14 01:30:00Z INFO StepsRunner] Starting the step.
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:30:00Z INFO StepsRunner] Which: 'chcp'
+[2023-12-14 01:30:00Z INFO JobServerQueue] Got a step log file to send to results service.
+[2023-12-14 01:30:00Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\PowerShell\actions-runner\_diag\blocks\c21e4f1b-f26b-4a26-80c7-d8b2fab965ba_a60052d4-79a0-5821-3eeb-84adb9872c5b.1
+[2023-12-14 01:30:00Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper] Starting process:
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Working directory: 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper] Process started with process id 20860, waiting for process exit.
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper] Finished process 20860 with exit code 0, and elapsed time 00:00:00.0195880.
+[2023-12-14 01:30:00Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Actions': 'C:\PowerShell\actions-runner\_self-hosted\_actions'
+[2023-12-14 01:30:00Z INFO ActionManager] Load action that reference repository from 'C:\PowerShell\actions-runner\_self-hosted\_actions\actions\checkout\v3'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Actions': 'C:\PowerShell\actions-runner\_self-hosted\_actions'
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-12-14 01:30:00Z INFO ActionManager] Action pre node.js file: N/A.
+[2023-12-14 01:30:00Z INFO ActionManager] Action node.js file: dist/index.js.
+[2023-12-14 01:30:00Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Temp': 'C:\PowerShell\actions-runner\_self-hosted\_temp'
+[2023-12-14 01:30:00Z INFO ExecutionContext] Write event payload to C:\PowerShell\actions-runner\_self-hosted\_temp\_github_workflow\event.json
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Work': 'C:\PowerShell\actions-runner\_self-hosted'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Temp': 'C:\PowerShell\actions-runner\_self-hosted\_temp'
+[2023-12-14 01:30:00Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "tannerpresscorp/PowerShell"
+}
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'sparse-checkout': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 60,
+  "col": 14,
+  "lit": ""
+}
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'sparse-checkout-cone-mode': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 64,
+  "col": 14,
+  "lit": "true"
+}
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 67,
+  "col": 14,
+  "lit": "1"
+}
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'fetch-tags': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "false"
+}
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 82,
+  "col": 14,
+  "lit": "false"
+}
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 85,
+  "col": 14,
+  "lit": "true"
+}
+[2023-12-14 01:30:00Z INFO ActionManifestManager] Input 'github-server-url': default value evaluate result: ""
+[2023-12-14 01:30:00Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command set-env
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command set-output
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command save-state
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command add-path
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command warning
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command error
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command notice
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command debug
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command group
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2023-12-14 01:30:00Z INFO ActionCommandManager] Register action command extension for command echo
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:30:00Z INFO HostContext] Well known directory 'Externals': 'C:\PowerShell\actions-runner\externals'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper] Starting process:
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   File name: 'C:\PowerShell\actions-runner\externals\node16\bin\node.exe'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Arguments: '"C:\PowerShell\actions-runner\_self-hosted\_actions\actions\checkout\v3\dist/index.js"'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Working directory: 'C:\PowerShell\actions-runner\_self-hosted\PowerShell\PowerShell'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-12-14 01:30:00Z INFO ProcessInvokerWrapper] Process started with process id 20572, waiting for process exit.
+[2023-12-14 01:30:00Z INFO JobServerQueue] Try to append 1 batches web console lines for record '8237137e-b131-4bb4-a106-9cc15146929c', success rate: 1/1.
+[2023-12-14 01:30:01Z INFO AddMaskCommandExtension] Add new secret mask with length of 32
+[2023-12-14 01:30:01Z INFO JobServerQueue] Try to append 1 batches web console lines for record '8237137e-b131-4bb4-a106-9cc15146929c', success rate: 1/1.
+[2023-12-14 01:30:02Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2023-12-14 01:30:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record '8237137e-b131-4bb4-a106-9cc15146929c', success rate: 1/1.
+[2023-12-14 01:30:02Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2023-12-14 01:30:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-12-14 01:30:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-12-14 01:30:03Z INFO ProcessInvokerWrapper] Finished process 20572 with exit code 0, and elapsed time 00:00:02.3538496.
+[2023-12-14 01:30:03Z INFO CreateStepSummaryCommand] Step Summary file (C:\PowerShell\actions-runner\_self-hosted\_temp\_runner_file_commands\step_summary_6135961b-b778-435f-b1a6-d895b5be41e4) is empty; skipping attachment upload
+[2023-12-14 01:30:03Z INFO StepsRunner] Step result: 
+[2023-12-14 01:30:03Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v3",
+  "type": "node16",
+  "stage": "Post",
+  "stepId": "8237137e-b131-4bb4-a106-9cc15146929c",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 3,
+  "startTime": "2023-12-14T01:30:00.734076Z",
+  "finishTime": "2023-12-14T01:30:03.1629891Z"
+}.
+[2023-12-14 01:30:03Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2023-12-14 01:30:03Z INFO StepsRunner] Current state: job state = 'Failed'
+[2023-12-14 01:30:03Z INFO JobRunner] Finalize job.
+[2023-12-14 01:30:03Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:30:03Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:30:03Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:30:03Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:30:03Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:30:03Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:30:03Z INFO JobExtension] Initialize Env context
+[2023-12-14 01:30:03Z INFO JobExtension] Initialize steps context
+[2023-12-14 01:30:03Z INFO JobExtension] Total accessible running process: 295.
+[2023-12-14 01:30:03Z INFO JobExtension] Inspecting process environment variables. PID: 9192 (git)
+[2023-12-14 01:30:03Z INFO JobExtension] Wait for all connectivity checks to finish.
+[2023-12-14 01:30:03Z INFO JobExtension] Connectivity check result: https://acghubeus0.actions.githubusercontent.com/_apis/health: OK
+[2023-12-14 01:30:03Z INFO JobExtension] Connectivity check result: https://results-receiver.actions.githubusercontent.com/health: OK
+[2023-12-14 01:30:03Z INFO JobExtension] Connectivity check result: https://actions-results-receiver-production.githubapp.com/health: OK
+[2023-12-14 01:30:03Z INFO JobExtension] Connectivity check result: https://pipelinesghubeus25.actions.githubusercontent.com/_apis/health: OK
+[2023-12-14 01:30:03Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "4badab97-533d-4eb5-bd2a-44729797e865",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2023-12-14T01:30:03.1824407Z",
+  "finishTime": "2023-12-14T01:30:03.2292812Z"
+}.
+[2023-12-14 01:30:03Z INFO JobRunner] Job result after all job steps finish: Failed
+[2023-12-14 01:30:03Z INFO JobRunner] Completing the job execution context.
+[2023-12-14 01:30:03Z INFO JobServerQueue] Try to append 1 batches web console lines for record '4badab97-533d-4eb5-bd2a-44729797e865', success rate: 1/1.
+[2023-12-14 01:30:03Z INFO JobRunner] Shutting down the job server queue.
+[2023-12-14 01:30:03Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2023-12-14 01:30:04Z INFO JobServerQueue] All queue process task stopped.
+[2023-12-14 01:30:04Z INFO JobServerQueue] Web console line queue drained.
+[2023-12-14 01:30:04Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2023-12-14 01:30:06Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2023-12-14 01:30:06Z INFO JobServerQueue] File upload queue drained.
+[2023-12-14 01:30:06Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-12-14 01:30:06Z INFO JobServerQueue] Uploading 3 file(s) in one shot through results service.
+[2023-12-14 01:30:06Z INFO JobServerQueue] Got a step log file to send to results service.
+[2023-12-14 01:30:06Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\PowerShell\actions-runner\_diag\blocks\c21e4f1b-f26b-4a26-80c7-d8b2fab965ba_8237137e-b131-4bb4-a106-9cc15146929c.1
+[2023-12-14 01:30:07Z INFO JobServerQueue] Got a step log file to send to results service.
+[2023-12-14 01:30:07Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\PowerShell\actions-runner\_diag\blocks\c21e4f1b-f26b-4a26-80c7-d8b2fab965ba_4badab97-533d-4eb5-bd2a-44729797e865.1
+[2023-12-14 01:30:08Z INFO JobServerQueue] Got a job log file to send to results service.
+[2023-12-14 01:30:08Z INFO JobServerQueue] Starting upload of job log file to results service ResultsLog, C:\PowerShell\actions-runner\_diag\blocks\c21e4f1b-f26b-4a26-80c7-d8b2fab965ba_ca395085-040a-526b-2ce8-bdc85f692774.1
+[2023-12-14 01:30:11Z INFO JobServerQueue] Tried to upload 3 file(s) to results, success rate: 3/3.
+[2023-12-14 01:30:11Z INFO JobServerQueue] Results upload queue drained.
+[2023-12-14 01:30:12Z INFO JobServerQueue] Timeline update queue drained.
+[2023-12-14 01:30:12Z INFO JobServerQueue] Disposing job server ...
+[2023-12-14 01:30:12Z INFO JobServerQueue] Disposing results server ...
+[2023-12-14 01:30:12Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2023-12-14 01:30:12Z INFO JobServerQueue] Actions upload time: 4914 ms, Result upload time: 9237 ms
+[2023-12-14 01:30:12Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\PowerShell\actions-runner\_self-hosted\_temp
+[2023-12-14 01:30:12Z INFO HostContext] Well known directory 'Bin': 'C:\PowerShell\actions-runner\bin'
+[2023-12-14 01:30:12Z INFO HostContext] Well known directory 'Root': 'C:\PowerShell\actions-runner'
+[2023-12-14 01:30:12Z INFO HostContext] Well known directory 'Diag': 'C:\PowerShell\actions-runner\_diag'
+[2023-12-14 01:30:12Z INFO HostContext] Well known config file 'Telemetry': 'C:\PowerShell\actions-runner\_diag\.telemetry'
+[2023-12-14 01:30:12Z INFO JobRunner] Raising job completed event
+[2023-12-14 01:30:13Z INFO Worker] Job completed.
